@@ -30,7 +30,7 @@ dvd.c  dvdfs.c  main.c  mode_movie.c  mode_skit.c  scenario.c  top2.c
 vi.c  window.c
 ```
 
-Twelve of those are what you would expect. `R_MultiModule.c` names the loader
+Thirteen of those are what you would expect. `R_MultiModule.c` names the loader
 for the eight `.rel` files — Nintendo's relocatable-module format, the
 GameCube's answer to overlays. And **`top2.c`** is the game.
 
@@ -93,18 +93,26 @@ one does not.
 
 ## Two SDK stamps
 
-The GameCube apploader dates itself twice over:
+Two components of Nintendo's SDK date themselves, in two different places on
+the disc, twelve minutes apart.
+
+In the apploader, at disc offset `0x35EC` and `0x3618`:
 
 ```
 Apploader Initialized.  $Revision: 32 $.
 This Apploader built Apr 17 2003 12:46:20
+```
+
+And inside `main.dol` itself, at `0x29FEE3`:
+
+```
 << Dolphin SDK - DSP  release build: Apr 17 2003 12:34:16 (0x2301) >>
 ```
 
-Nintendo's stock apploader and the Dolphin SDK's DSP component, built twelve
-minutes apart on **17 April 2003** — four months before release, and the same
-date the disc header's apploader field carries. The apploader is identical on
-both discs, so both discs were mastered from one SDK installation.
+**17 April 2003** — four months before release, and the same date the disc
+header's apploader field carries. The apploader is byte-identical on both
+discs, so both were mastered from one SDK installation, and the DSP component
+linked into the game came from the same one.
 
 The GameCube's video is `HVQM4 1.5`, Hudson's codec, played through
 `HVQM4PlayerEx.c`. The PlayStation 2's is Sofdec, CRI's, in `.sfd` files. Of
@@ -163,9 +171,10 @@ And one archive on the GameCube disc does not belong to either pattern. See
 [09](09-leftovers.md).
 
 Short names give the build host away as well. Members appear as `BTLKRA~1.BIN`,
-`BTLLLO~2.BIN` — MS-DOS 8.3 truncations — and five of them as `BT2581~1.BIN`,
-`BT1554~1.BIN`, `BTA238~1.BIN`, `OEQS000~.BIN`, which is what Windows generates
-when the ordinary truncation would collide. The asset tool ran on Windows and
+`BTLLLO~2.BIN` — MS-DOS 8.3 truncations — and four of them as `BT2581~1.BIN`,
+`BT1554~1.BIN` and `BTA238~1.BIN` on the GameCube and `OEQS000~.BIN` on the
+PlayStation 2, which is what Windows generates when the ordinary truncation
+would collide. The asset tool ran on Windows and
 opened its inputs by short name.
 
 [`reports/gc-cab-stamps.txt`](../reports/gc-cab-stamps.txt),

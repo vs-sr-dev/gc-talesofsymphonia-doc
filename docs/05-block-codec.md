@@ -174,28 +174,93 @@ the packer's driver changed; the format did not.
 The 2004 executable carries the decoder four times ([06](06-decoder-lineage.md))
 so the question is whether it is used, and it is — but barely.
 
-| | GameCube 2003 | PlayStation 2 2004 |
+| File | GameCube 2003 | PlayStation 2 2004 |
 |---|---|---|
-| `BTLusual.dat` | 935,680 bytes, **1 block**, 130,512 packed | 1,041,472 bytes, **1 block**, 61,748 packed |
-| `BTLenemy.dat` | 77,952,000 bytes, **251 blocks**, 77,945,676 packed | 47,814,656 bytes, **0 blocks** |
+| nineteen character models | 134 blocks, 1,017,110 packed | 134 blocks, 1,042,397 packed |
+| `BTLusual.dat` | 1 block, 130,512 packed | 1 block, 61,748 packed |
+| `npc_all.bin` | 101 blocks, 651,197 packed | **at least 39** — scan incomplete |
+| `d.d` | 0 blocks | 0 blocks |
+| **`BTLenemy.dat`** | **251 blocks, 77,945,676 packed** | **0 blocks** |
 
-`/BTLENEMY.DAT` was scanned at **four-byte** alignment across all 47.8 MB and
-contains no header that decodes to its declared length. On the GameCube the
-same file is the single largest use of the codec on either release. Between
-2003 and 2004 the enemy data stopped being block-compressed and something else
-took over — while `BTLusual.dat`, one block in both, did not change hands.
+`/BTLENEMY.DAT` was scanned at **four-byte** alignment across all 47.8 MB of
+the 2004 file and contains no header that decodes to its declared length. On
+the GameCube the same file is the single largest use of the codec on either
+release — 78 MB of the disc's 79.7 MB of packed block. Between 2003 and 2004
+the enemy data stopped being block-compressed and something else took over,
+while everything else that used the codec went on using it.
 
 The codec did not leave the 2004 build. It stopped being what the 2004 build
 compresses its bulk with.
+
+`/NPC_ALL.BIN` is the one file on either release this repository could not
+finish scanning: 39 blocks were found and confirmed before the scan hit a
+one-gigabyte decode budget after twelve minutes. It is a floor, not a total,
+and it is reported as one.
 [`reports/ps2-btlenemy-probe.txt`](../reports/ps2-btlenemy-probe.txt)
 
-> **A bound, stated.** The PlayStation 2 scan is not exhaustive and the report
-> says which files it gave up on. The 2004 field and root data produce enough
-> false headers that a quarter-megabyte file can take eight seconds to clear,
-> so `census.py` takes a per-file budget of decoder output attempted and names
-> every file that exceeds it. Six files in `TOSBTL.CVM` were abandoned that
-> way. `BTLENEMY.DAT` was **not** one of them — it was scanned in full, twice,
-> the second time at four-byte alignment.
+---
+
+## The packer ran twice, and the second run was worse
+
+Nineteen files carry codec blocks under the same name on the 2003 GameCube
+discs and inside the 2004 build's `TOSROOT.CVM`. For **every one of them** the
+census reports the same number of blocks and the same total unpacked length —
+so the packer was given identical input and cut it into blocks at identical
+places both times — and a **larger packed length**:
+
+| File | Blocks | Packed 2003 | Packed 2004 | | Unpacked |
+|---|---:|---:|---:|---:|---:|
+| `COLLET.BIN` | 6 | 41,422 | 43,031 | +3.88% | 94,320 |
+| `GENIUS_EX.BIN` | 8 | 88,115 | 90,560 | +2.77% | 148,256 |
+| `LLOYD.BIN` | 8 | 73,762 | 75,510 | +2.37% | 145,008 |
+| `PRESEA.BIN` | 10 | 44,894 | 45,217 | +0.72% | 130,464 |
+| `MININI.BIN` | 2 | 16,041 | 16,877 | +5.21% | 37,720 |
+| … nineteen in all | | | | | |
+| **total** | **134** | **1,017,110** | **1,042,397** | **+2.49%** | **1,944,112** |
+
+Every file is larger in 2004, by between **+0.72% and +5.21%**. Not one is
+smaller and not one is the same.
+
+Section 8 of the specification says the packer "has left no trace in any
+shipped image beyond its output". This is that trace. 1,944,112 bytes of
+identical input went through it in 2003 and again in 2004; the block
+boundaries came out in exactly the same places, so the segmentation logic did
+not change, and every block came out slightly bigger, so the match search did.
+The tool was still on hand in 2004, still being run, and no longer quite the
+same tool.
+
+It is the same year the decoder's source was edited
+([06](06-decoder-lineage.md)) — and unlike that edit, this one made the output
+worse.
+
+[`reports/repack-2003-vs-2004.txt`](../reports/repack-2003-vs-2004.txt)
+
+---
+
+> **Three bounds, all stated.** The GameCube figures above have none of these:
+> both discs are covered in full, at 32-byte steps, and never reach a budget.
+> The PlayStation 2 figures do.
+>
+> **Which volumes.** The census covers the four holding the game's structured
+> data — `TOSROOT`, `TOSBTL`, `TOSCHT`, `TOSFIELD`: 1,007 files, 498,571,983
+> bytes. The other five hold movies, event scenes, voice and music — 206 files,
+> 2,700,466,560 bytes of streamed media — and were **not scanned**. The
+> GameCube's equivalent content carries no blocks, but that is an expectation
+> carried across, not a measurement.
+>
+> **How finely.** `TOSROOT`, `TOSBTL` and `TOSCHT` were scanned at every
+> 32-byte boundary. `TOSFIELD` would not finish that way, so it was **sampled**
+> at every 256-byte boundary: 0 blocks in 256 files, which rules out a large
+> population and not a few.
+>
+> **Which files.** The 2004 data produces enough false headers that a
+> quarter-megabyte file can take a minute, so `census.py` takes a per-file
+> budget of decoder output attempted and names every file that exceeds it. Nine
+> files were abandoned: `BTLMAGIC.DAT`, `BTLMBENM.DAT`, `D.D`, `NPC_ALL.BIN`
+> and five in `TOSFIELD`. `D.D` was rescanned unbounded and has none;
+> `NPC_ALL.BIN` has at least 39 and could not be finished. `BTLENEMY.DAT` was
+> **not** among them — it was scanned in full, twice, the second time at
+> four-byte alignment.
 
 [`reports/gc-codec-census.txt`](../reports/gc-codec-census.txt),
 [`reports/gc-codec-census-d2.txt`](../reports/gc-codec-census-d2.txt),

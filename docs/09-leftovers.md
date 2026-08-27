@@ -218,9 +218,9 @@ back up.
 
 ---
 
-## 8. Ten volumes still called `SAMPLE_GAME_TITLE`
+## 8. Nine volumes still called `SAMPLE_GAME_TITLE`
 
-Every one of the ten `CVM` volumes on the PlayStation 2 disc carries CRI's
+Every one of the nine `CVM` volumes on the PlayStation 2 disc carries CRI's
 builder defaults in its ISO 9660 volume descriptor:
 
 ```

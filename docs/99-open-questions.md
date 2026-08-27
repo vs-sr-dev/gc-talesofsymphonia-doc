@@ -114,6 +114,10 @@ database would settle it in a minute and has not been done.
   contains **no** blocks, scanned at four-byte alignment across the whole file.
   What compresses it in 2004 is not identified, and is probably the same thing
   that compresses the `.cab` payloads.
+* **`/NPC_ALL.BIN` on the PlayStation 2.** 87 MB. Thirty-nine blocks confirmed
+  before the scan hit a one-gigabyte decode budget after twelve minutes; the
+  GameCube file of the same name has 101. The figure is a floor. It is the only
+  file on either release this repository could not finish.
 * **The PlayStation 2 block census is bounded, and says so.** `census.py` gives
   up on a file after a stated budget of attempted decoder output, because the
   2004 field and root data produce enough false headers to make an exhaustive
@@ -143,9 +147,22 @@ database would settle it in a minute and has not been done.
 
 ---
 
+### Why did the 2004 packer get worse?
+
+Nineteen files, identical input, identical segmentation, and every one packs
+between 0.72% and 5.21% larger in 2004 than in 2003
+([05](05-block-codec.md)). Whatever changed is in the match search and not in
+the block splitter. A shorter search, a smaller lookahead, a different
+tie-break — any of those would do it, and nothing on either disc distinguishes
+them, because the format does not record how the packer found a match, only
+that it did. The only lever this corpus has on the question is more pairs of
+the same asset packed at different dates.
+
+---
+
 ## Carried back to the corpus
 
-Three results from this pipeline belong in
+Four results from this pipeline belong in
 [tales-blockcodec-doc](https://github.com/vs-sr-dev/tales-blockcodec-doc)
 rather than here, and section 8 there has been updated with them:
 
@@ -153,5 +170,8 @@ rather than here, and section 8 there has been updated with them:
    turn round.
 2. The decoder's source was **edited between 2002 and 2004**, for the first
    time since 1997 — the first negative result in the "same source" chain.
-3. The **opcode-sequence method does not cross instruction sets**, which bounds
+3. The **packer was caught running twice on one input**, a year apart, cutting
+   it at the same places and compressing it 2.49% worse the second time — the
+   first direct measurement of the tool in five titles.
+4. The **opcode-sequence method does not cross instruction sets**, which bounds
    how far the corpus's own strongest tool can be pushed.

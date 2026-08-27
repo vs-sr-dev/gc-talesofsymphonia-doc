@@ -23,7 +23,7 @@ owning the discs.
 |---|---|---|
 | Media | **two** miniDVDs, 1,459,978,240 bytes each | **one** single-layer DVD, 4,255,907,840 bytes |
 | Mastered | apploader stamped 2003/04/17 | volume stamped 2004-08-17 14:27:39 |
-| File system | Nintendo FST | ISO 9660 + UDF, then ten CRI `CVM` volumes |
+| File system | Nintendo FST | ISO 9660 + UDF, then nine CRI `CVM` volumes |
 | Files | 1,602 + 1,598 | 1,710 |
 | Bytes in files | 1,382,292,034 + 1,405,477,770 | 3,563,578,735 |
 | Distinct content | **1,784,218,711** | **3,563,578,735** |
@@ -32,7 +32,7 @@ owning the discs.
 | Block codec | **yes** — four routines, 487 blocks | **yes** — four routines, none on the I/O processor |
 | Project name | `top2.c`, `Top2Btl.rel`, `Top2field.rel` | the same names survive |
 
-### Three results
+### Three answers, and one the discs volunteered
 
 **1 — The 1995 compressor reached a big-endian console, and the header did not
 turn round.** `main.dol` contains Wolf Team's in-house LZSS decoder four times,
@@ -76,6 +76,16 @@ files are genuinely per-disc: the event scenes, cut between scene 83 and scene
 84, and the movies. Even the voice archives named `cht_disc_1.afs` and
 `cht_disc_2.afs` are both on both discs. [→ 07](docs/07-duplication.md)
 
+**And a fourth, which was not one of the questions.** Nineteen character-model
+files carry codec blocks under the same names on both releases. All nineteen
+report the **same number of blocks and the same unpacked length** — identical
+input, cut at identical places — and all nineteen pack **larger in 2004**, by
+between +0.72% and +5.21%; 1,017,110 bytes in 2003 against 1,042,397 in 2004
+for the same 1,944,112 bytes of data. The corpus has said for five titles that
+the packer left no trace beyond its output. This is that trace: it was still
+being run in 2004, its block splitter was untouched, and its match search had
+got worse. [→ 05](docs/05-block-codec.md)
+
 ### And the archaeology
 
 A battle archive for **Rutee Katrea, heroine of *Tales of Destiny* (1997)**,
@@ -89,7 +99,7 @@ the only build path on either release, `./Btl/Debug/debug`. Movies named
 **`tod2_cut.h4m`** after a different game. Two test maps totalling 2.9 MB that
 did ship. Forty-five archives wearing a **Microsoft Cabinet header** that no
 cabinet reader can open, carrying the only per-asset timestamps on either
-release. And ten `CVM` volumes still called `SAMPLE_GAME_TITLE`.
+release. And nine `CVM` volumes still called `SAMPLE_GAME_TITLE`.
 [→ 09](docs/09-leftovers.md)
 
 Start at [docs/01-overview.md](docs/01-overview.md).
@@ -116,6 +126,8 @@ Start at [docs/01-overview.md](docs/01-overview.md).
 | …that the difference is *partly* a toolchain change | *Consistent* | [06](docs/06-decoder-lineage.md) |
 | …that the `4078` → `4080` quadword clear is a source edit | **Verified** — a compiler cannot change the constant | [06](docs/06-decoder-lineage.md) |
 | Cross-architecture opcode similarity distinguishes nothing | **Verified negative** — the control scores the same | [06](docs/06-decoder-lineage.md), [99](docs/99-open-questions.md) |
+| 19 files repack larger in 2004 at identical block count and unpacked length | **Verified** | [05](docs/05-block-codec.md) |
+| …*why* the 2004 packer is worse | *Open* | [99](docs/99-open-questions.md) |
 | Duplication figures, at file level | **Verified** | [07](docs/07-duplication.md) |
 | …compared with *Eternia*'s 50.6% or *Destiny 2*'s 47.2% | *Not comparable* — those are block level | [99](docs/99-open-questions.md) |
 | Six `.rel` modules are unreachable from `main.dol` | **Verified** — two literal names, no format string | [09](docs/09-leftovers.md) |
@@ -134,7 +146,7 @@ Start at [docs/01-overview.md](docs/01-overview.md).
 |---|---|
 | [01 — Overview](docs/01-overview.md) | The two releases side by side, and the three results |
 | [02 — The two GameCube discs](docs/02-the-two-discs.md) | RVZ, the FST, the layout, and what the padding is made of |
-| [03 — The PlayStation 2 disc](docs/03-the-playstation-2-disc.md) | A bridge disc, ten `CVM` volumes, and 686 MB of nothing |
+| [03 — The PlayStation 2 disc](docs/03-the-playstation-2-disc.md) | A bridge disc, nine `CVM` volumes, and 686 MB of nothing |
 | [04 — Executables and tools](docs/04-executables-and-tools.md) | Two compilers, one SDK stamp, and the cabinets that are not cabinets |
 | [05 — The block codec](docs/05-block-codec.md) | The 1995 format on a big-endian machine |
 | [06 — The decoder lineage](docs/06-decoder-lineage.md) | 1995 → 2004, measured, including the measurement that failed |

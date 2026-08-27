@@ -1,3 +1,28 @@
+Codec block census, PlayStation 2 (2004), SLPS-25400
+====================================================
+
+Scope, stated rather than implied.
+
+  Scanned      TOSROOT, TOSBTL, TOSCHT, TOSFIELD
+               1,007 files, 498,571,983 bytes -- the game's structured data
+  Not scanned  TOSMOV, TOSEV, TOSSND, TOSCV
+               206 files, 2,700,466,560 bytes -- movies, event scenes,
+               voice and music, all streamed media
+
+  TOSROOT, TOSBTL and TOSCHT were scanned at every 32-byte boundary with the
+  default per-file decode budget of 64 MB.  TOSFIELD would not finish under
+  those settings -- its data produces enough false headers that a
+  quarter-megabyte file can take a minute -- so it was SAMPLED at every
+  256-byte boundary with a 2 MB budget.  That is enough to rule out a large
+  population of blocks in it and not enough to rule out a few.
+
+  Both GameCube discs, by contrast, are covered in full at 32-byte steps and
+  never reach the budget: see gc-codec-census.txt and gc-codec-census-d2.txt.
+
+  Files the budget abandoned are named in each section below.  D.D and
+  NPC_ALL.BIN were rescanned afterwards without a meaningful bound; see
+  ps2-btlenemy-probe.txt.
+
 === TOSBTL.CVM
   files with blocks   1 of 68
   blocks              1
@@ -5,15 +30,71 @@
   packed bytes        61748
   unpacked bytes      135264
   ratio               2.19x
-  headers skipped for claiming more than 1048576 packed bytes  30
-  files abandoned on the 2 MB decode budget  6
+  headers skipped for claiming more than 1048576 packed bytes  63
+  files abandoned on the 64 MB decode budget  2
       /BTLMAGIC.DAT
       /BTLMBENM.DAT
-      /BTLSKILL.DAT
-      /BTLSTR.AFS
-      /BTLUSUAL.DAT
-      /BTLVOICE.AFS
 
   FILE                                             SIZE  BLOCKS       PACKED     UNPACKED
   /BTLUSUAL.DAT                                 1041472       1        61748       135264
+
+=== TOSROOT.CVM
+  files with blocks   19 of 197
+  blocks              134
+  methods             1: 108, 3: 26
+  packed bytes        1042397
+  unpacked bytes      1944112
+  ratio               1.87x
+  headers skipped for claiming more than 1048576 packed bytes  100
+  files abandoned on the 64 MB decode budget  2
+      /D.D
+      /NPC_ALL.BIN
+
+  FILE                                             SIZE  BLOCKS       PACKED     UNPACKED
+  /GENIUS_EX.BIN                                 160384       8        90560       148256
+  /LLOYD.BIN                                     206848       8        75510       145008
+  /GENIUS.BIN                                    188992       6        74169       122296
+  /KRATOS_EX.BIN                                 107840       8        73899       127872
+  /COLLET_EX.BIN                                 102976       8        71275       128700
+  /LLOYD_EX.BIN                                  114752       8        70141       120384
+  /SHIHNA_EX.BIN                                 100288       8        63920       111740
+  /REFILL_EX.BIN                                 108928       8        63166       111696
+  /PRESEA_EX.BIN                                 119680       8        62159       111888
+  /ZELOSZ_EX.BIN                                  99264       8        61607       106624
+  /REGAL_EX.BIN                                   90688       8        56333       101824
+  /KRATOS.BIN                                    159040       6        53321        94904
+  /PRESEA.BIN                                    120192      10        45217       130464
+  /COLLET.BIN                                    141632       6        43031        94320
+  /REFILL.BIN                                    129408       6        39110        74016
+  /REGAL.BIN                                      92992       6        31326        65416
+  /ZELOSZ.BIN                                     90688       6        26207        57072
+  /SHIHNA.BIN                                    125312       6        24569        53912
+  /MININI.BIN                                    208768       2        16877        37720
+
+=== TOSCHT.CVM
+  files with blocks   0 of 486
+  blocks              0
+  methods             
+  packed bytes        0
+  unpacked bytes      0
+  headers skipped for claiming more than 1048576 packed bytes  100
+  files abandoned on the 64 MB decode budget  0
+
+  FILE                                             SIZE  BLOCKS       PACKED     UNPACKED
+
+=== TOSFIELD.CVM
+  files with blocks   0 of 256
+  blocks              0
+  methods             
+  packed bytes        0
+  unpacked bytes      0
+  headers skipped for claiming more than 1048576 packed bytes  0
+  files abandoned on the 2 MB decode budget  5
+      /24.DAT
+      /E03.D
+      /T35.DAT
+      /T58.DAT
+      /T63.DAT
+
+  FILE                                             SIZE  BLOCKS       PACKED     UNPACKED
 

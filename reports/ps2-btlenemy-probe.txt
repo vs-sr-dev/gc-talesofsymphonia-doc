@@ -7,3 +7,13 @@ headers skipped for size: 47
 For comparison, the GameCube build of the same data:
   /BTL/BTLenemy.dat  77,952,000 bytes, 251 blocks, 77,945,676 packed
   /BTL/BTLusual.dat     935,680 bytes,   1 block,     130,512 packed
+
+--- rescanned with a 1 GB per-file budget ---
+/D.D             20580352 bytes,   133s ->   0 blocks, 0 packed, 0 unpacked
+/MININI.BIN        208768 bytes,     2s ->   2 blocks, 16877 packed, 37720 unpacked
+/NPC_ALL.BIN     87019520 bytes,   742s ->  39 blocks, 255723 packed, 511360 unpacked  ABANDONED
+
+the GameCube files of the same name:
+  /npc_all.bin  87,184,096 bytes, 101 blocks,   651,197 packed, 1,368,668 unpacked
+  /Minini.bin      198,688 bytes,   2 blocks,    16,041 packed,    37,720 unpacked
+  /d.d          22,466,880 bytes,   0 blocks

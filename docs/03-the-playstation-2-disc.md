@@ -107,16 +107,16 @@ Two details in that header are worth more than the format is.
 
 **`ROFSBLD Ver.1.52 2003-06-09`** is a build-tool fingerprint — the name and
 version of CRI's read-only file system builder and the date *that tool* was
-compiled. It is stamped identically into all ten volumes.
+compiled. It is stamped identically into all nine volumes.
 
 **`SAMPLE_GAME_TITLE` and `PUBLISHER_NAME`** are the builder's own defaults.
-Every one of the ten volumes on the retail disc still carries them: nobody ever
+Every one of the nine volumes on the retail disc still carries them: nobody ever
 filled in the volume metadata, because nothing reads it. The outer volume's
 identifier is blank for what is probably the same reason.
 
-All ten volumes are stamped **2004-08-16 15:56:04** — every one, to the second.
-They were not built one at a time; one run of the tool produced all ten, the
-day before the disc was mastered.
+All nine volumes are stamped **2004-08-16 15:56:04** — every one, to the
+second. They were not built one at a time; one run of the tool produced all
+nine, the day before the disc was mastered.
 
 | Volume | Files | Bytes |
 |---|---:|---:|
@@ -131,9 +131,11 @@ day before the disc was mastered.
 | `TOSCHT.CVM` | 486 | 1,632,288 |
 | **total** | **1,710** | **3,563,578,735** |
 
-The ten volumes are the GameCube's nine directories, one volume per directory,
-with `/` split into `TOSROOT` and the rest. The port kept the shape of the
-file system and changed only the container.
+The nine volumes map one-to-one onto the GameCube's root and its eight
+directories — `TOSROOT` ↔ `/`, `TOSBTL` ↔ `/BTL`, `TOSCHT` ↔ `/CHT`,
+`TOSCV` ↔ `/CV`, `TOSEV` ↔ `/EV`, `TOSFIELD` ↔ `/FIELD`, `TOSMAP` ↔ `/MAP`,
+`TOSMOV` ↔ `/MOV`, `TOSSND` ↔ `/S`. The port kept the shape of the file system
+exactly and changed only the container.
 
 [`reports/ps2-cvm-headers.txt`](../reports/ps2-cvm-headers.txt),
 [`reports/ps2-dupes.txt`](../reports/ps2-dupes.txt).
