@@ -167,6 +167,36 @@ block here is **1,007,213 packed bytes**, inside `/BTL/BTLenemy.dat`. Across
 the four earlier titles the largest was around thirty kilobytes. Something in
 the packer's driver changed; the format did not.
 
+---
+
+## And on the PlayStation 2, the same codec on far less data
+
+The 2004 executable carries the decoder four times ([06](06-decoder-lineage.md))
+so the question is whether it is used, and it is — but barely.
+
+| | GameCube 2003 | PlayStation 2 2004 |
+|---|---|---|
+| `BTLusual.dat` | 935,680 bytes, **1 block**, 130,512 packed | 1,041,472 bytes, **1 block**, 61,748 packed |
+| `BTLenemy.dat` | 77,952,000 bytes, **251 blocks**, 77,945,676 packed | 47,814,656 bytes, **0 blocks** |
+
+`/BTLENEMY.DAT` was scanned at **four-byte** alignment across all 47.8 MB and
+contains no header that decodes to its declared length. On the GameCube the
+same file is the single largest use of the codec on either release. Between
+2003 and 2004 the enemy data stopped being block-compressed and something else
+took over — while `BTLusual.dat`, one block in both, did not change hands.
+
+The codec did not leave the 2004 build. It stopped being what the 2004 build
+compresses its bulk with.
+[`reports/ps2-btlenemy-probe.txt`](../reports/ps2-btlenemy-probe.txt)
+
+> **A bound, stated.** The PlayStation 2 scan is not exhaustive and the report
+> says which files it gave up on. The 2004 field and root data produce enough
+> false headers that a quarter-megabyte file can take eight seconds to clear,
+> so `census.py` takes a per-file budget of decoder output attempted and names
+> every file that exceeds it. Six files in `TOSBTL.CVM` were abandoned that
+> way. `BTLENEMY.DAT` was **not** one of them — it was scanned in full, twice,
+> the second time at four-byte alignment.
+
 [`reports/gc-codec-census.txt`](../reports/gc-codec-census.txt),
 [`reports/gc-codec-census-d2.txt`](../reports/gc-codec-census-d2.txt),
 [`reports/ps2-codec-census.txt`](../reports/ps2-codec-census.txt).

@@ -1,0 +1,9 @@
+/BTLENEMY.DAT      47814656 bytes, step 4,    4s -> 0 blocks
+/BTLUSUAL.DAT       1041472 bytes, step 4,    7s -> 1 blocks
+    0x00048160 method 3 packed 61748 unpacked 135264
+
+headers skipped for size: 47
+
+For comparison, the GameCube build of the same data:
+  /BTL/BTLenemy.dat  77,952,000 bytes, 251 blocks, 77,945,676 packed
+  /BTL/BTLusual.dat     935,680 bytes,   1 block,     130,512 packed

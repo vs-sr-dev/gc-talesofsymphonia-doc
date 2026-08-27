@@ -1,0 +1,19 @@
+=== TOSBTL.CVM
+  files with blocks   1 of 68
+  blocks              1
+  methods             3: 1
+  packed bytes        61748
+  unpacked bytes      135264
+  ratio               2.19x
+  headers skipped for claiming more than 1048576 packed bytes  30
+  files abandoned on the 2 MB decode budget  6
+      /BTLMAGIC.DAT
+      /BTLMBENM.DAT
+      /BTLSKILL.DAT
+      /BTLSTR.AFS
+      /BTLUSUAL.DAT
+      /BTLVOICE.AFS
+
+  FILE                                             SIZE  BLOCKS       PACKED     UNPACKED
+  /BTLUSUAL.DAT                                 1041472       1        61748       135264
+

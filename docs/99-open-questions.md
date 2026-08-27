@@ -110,7 +110,16 @@ database would settle it in a minute and has not been done.
 
 * **`/BTL/BTLenemy.dat`.** 78 MB, 251 blocks, decoding to 140 MB — the single
   largest use of the codec on either release, and its contents are not parsed
-  here at all.
+  here at all. The PlayStation 2's file of the same name is 47.8 MB and
+  contains **no** blocks, scanned at four-byte alignment across the whole file.
+  What compresses it in 2004 is not identified, and is probably the same thing
+  that compresses the `.cab` payloads.
+* **The PlayStation 2 block census is bounded, and says so.** `census.py` gives
+  up on a file after a stated budget of attempted decoder output, because the
+  2004 field and root data produce enough false headers to make an exhaustive
+  scan take hours. Every abandoned file is named in the report. The GameCube
+  discs never reach the budget; the PlayStation 2 volumes do, so the 2004
+  figures are a floor, not a total.
 * **The `.d` archives.** `/d.d` is 22 MB and there are fifteen more. The first
   word looks like a header size that doubles as an offset-table length, which
   is a shape the 1997 and 2000 titles also used, but this is untested.

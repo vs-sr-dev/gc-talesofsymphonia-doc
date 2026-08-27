@@ -55,6 +55,12 @@ And including the fake cabinets. The `MSCF`-headered archives described in
 same one-file-per-archive layout and the same MS-DOS timestamps — 53 of them
 instead of 45.
 
+The block codec is the one carried-across format that lost ground. Its decoder
+is in the 2004 executable four times over and it still compresses
+`BTLUSUAL.DAT` — one block on both releases — but `BTLENEMY.DAT`, which on the
+GameCube is 251 blocks and the single largest use of the codec anywhere on
+either disc, contains none at all in 2004. See [05](05-block-codec.md).
+
 ---
 
 ## Content the PlayStation 2 added

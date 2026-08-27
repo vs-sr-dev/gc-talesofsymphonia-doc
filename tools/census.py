@@ -91,15 +91,21 @@ def main(argv):
     if len(argv) < 3:
         raise SystemExit(__doc__)
     mode = argv[1]
-    step = int(argv[argv.index('--step') + 1]) if '--step' in argv else 32
-    maxpacked = (int(argv[argv.index('--max') + 1])
-                 if '--max' in argv else 1 << 20)
-    budget = (int(argv[argv.index('--budget') + 1]) << 20
-              if '--budget' in argv else 64 << 20)
-    validate = (argv[argv.index('--validate') + 1]
-                if '--validate' in argv else None)
-    paths = [a for a in argv[2:] if not a.startswith('--')
-             and a != str(step) and a != validate]
+    taken = set()
+
+    def opt(name, default):
+        if name not in argv:
+            return default
+        i = argv.index(name)
+        taken.add(i + 1)
+        return argv[i + 1]
+
+    step = int(opt('--step', 32))
+    maxpacked = int(opt('--max', 1 << 20))
+    budget = int(opt('--budget', 64)) << 20 if '--budget' in argv else 64 << 20
+    validate = opt('--validate', None)
+    paths = [a for i, a in enumerate(argv)
+             if i >= 2 and i not in taken and not a.startswith('--')]
 
     grand = Counter()
     gpacked = gunpacked = 0

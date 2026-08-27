@@ -38,9 +38,11 @@ eight bytes per run — so no part of the seed has to be guessed.
 The padding is of **two kinds**, and the split is not decorative. Some runs
 carry an all-zero generator state, which produces zeroes; the rest carry a real
 state and produce the pseudo-random filler a GameCube disc is normally full of.
-The first 128 KiB of the disc contains only the zero kind: the gap between the
-disc header and the apploader, and the gap between the apploader and the DOL,
-are plain zeroes.
+The first 128 KiB of the disc contains only the zero kind. Its two padding
+runs — 7,168 bytes at offset 2,048, inside the unused tail of the disc-info
+block, and 5,120 bytes at 122,880, between the end of the apploader and the
+start of `main.dol` — both carry an all-zero generator state and are therefore
+plain zeroes. The pseudo-random filler begins further in.
 
 > **Claim status.** The literal bytes are *Verified* — they are stored, not
 > computed. The reconstructed padding is *Consistent*: the container states
