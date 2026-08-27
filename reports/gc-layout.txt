@@ -1,0 +1,63 @@
+########## DISC 1 ##########
+WHAT                                      START          END        BYTES
+disc header                                   0         1088         1088
+disc info (bi2)                            1088         9280         8192
+apploader                                  9280       128612       119332
+main.dol                                 128768      2930688      2801920
+FST                                     2930688      2969252        38564
+1602 files                              2981888   1459978240   1382292034
+
+image size                           1459978240
+claimed by a structure or file       1385261130 (94.88%)
+between them                           74717110 (5.12%) in 388 gaps
+after the last file                           0 (0.00%)
+unused in total                        74717110 (5.12%)
+
+the 12 largest gaps
+  AT                    BYTES    SECTORS  BEFORE
+  0x00000DFB72B2     74599418    36425.5  /boot.tpl
+  0x00000C010235        32203       15.7  /MOV/s03.h4m
+  0x00000A98A145        24251       11.8  /MOV/s01.h4m
+  0x0000040524D1        23343       11.4  /MOV/op.h4m
+  0x00000C84BF11        16623        8.1  /MOV/s07.h4m
+  0x0000002D4EA4        12636        6.2  /MOV/as1.h4m
+  0x00000D066253         7597        3.7  /MOV/s08.h4m
+  0x00000001F664          156        0.1  main.dol
+  0x000013D979A0           20        0.0  /effect.cab
+  0x00001A5B1840           16        0.0  /MAP/aqu_d00.bin
+  0x000034D9C860           16        0.0  /FIELD/e00.d
+  0x0000511C6E60           16        0.0  /BTL/BTLgenius.cab
+
+381 of the 388 gaps are under one sector: file-to-file alignment
+
+########## DISC 2 ##########
+WHAT                                      START          END        BYTES
+disc header                                   0         1088         1088
+disc info (bi2)                            1088         9280         8192
+apploader                                  9280       128612       119332
+main.dol                                 128768      2930688      2801920
+FST                                     2930688      2969148        38460
+1598 files                              2981888   1459978240   1405477770
+
+image size                           1459978240
+claimed by a structure or file       1408446762 (96.47%)
+between them                           51531478 (3.53%) in 387 gaps
+after the last file                           0 (0.00%)
+unused in total                        51531478 (3.53%)
+
+the 12 largest gaps
+  AT                    BYTES    SECTORS  BEFORE
+  0x00001048C9CA     51449058    25121.6  /boot.tpl
+  0x00000F6009B1        30287       14.8  /MOV/s10.h4m
+  0x000001DBAADE        21794       10.6  /MOV/as3.h4m
+  0x0000002D4E3C        12740        6.2  /MOV/as2.h4m
+  0x00000E695DEE         8722        4.3  /MOV/s09.h4m
+  0x00000A48E162         7838        3.8  /MOV/op.h4m
+  0x00000001F664          156        0.1  main.dol
+  0x000014C591A0           20        0.0  /effect.cab
+  0x00001B473040           16        0.0  /MAP/aqu_d00.bin
+  0x000035C5E060           16        0.0  /FIELD/e00.d
+  0x0000511C6E60           16        0.0  /BTL/BTLgenius.cab
+  0x0000365B53B3           13        0.0  /FIELD/t00.dat
+
+381 of the 387 gaps are under one sector: file-to-file alignment

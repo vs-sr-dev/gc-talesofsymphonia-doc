@@ -1,0 +1,30 @@
+FIRST     LAST      SECTORS   WHAT
+0         15        16        <system area>
+16        16        1         <volume descriptor type 1>
+17        17        1         <volume descriptor type 255>
+257       257       1         <path table, L>
+259       259       1         <path table, M>
+279       279       1         SYSTEM.CNF
+280       414       135       IOPRP300.IMG
+415       2162      1748      SLPS_254.00
+2163      2297      135       IRXARC.BIN
+4000      577224    573225    TOSMOV.CVM
+900000    901089    1090      TOSCHT.CVM
+901090    1219012   317923    TOSEV.CVM
+1219013   1373951   154939    TOSCV.CVM
+1373952   1552239   178288    TOSMAP.CVM
+1552240   1643584   91345     TOSROOT.CVM
+1643585   1670076   26492     TOSFIELD.CVM
+1670077   1942712   272636    TOSSND.CVM
+1942713   2067837   125125    TOSBTL.CVM
+
+FIRST     LAST      SECTORS   CONTENT
+18        256       239       data: 00424541303101000000000000000000
+258       258       1         data: 01000501000001000000000000000000
+260       278       19        data: 01000000010500010000000000000000
+2298      3999      1702      all zero
+577225    899999    322775    all zero
+2067838   2078079   10242     all zero
+
+image      2078080 sectors (4255907840 bytes)
+slack      334978 sectors (16.1196% of the disc)

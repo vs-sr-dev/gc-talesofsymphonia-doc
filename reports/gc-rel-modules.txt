@@ -1,0 +1,70 @@
+FILE                        BYTES    ID  SECS  VER  STRINGS DEBUG  LOADED
+/m_Top2Btl.rel             882424     1    20    3      665     6  NO
+/m_Top2field.rel           453756     2    17    3      418     2  NO
+/r_Top2Btl.rel             787208     1    20    3      357     1  yes
+/r_Top2field.rel           452844     2    17    3      407     2  yes
+/Top2Btl.rel               882424     1    20    3      665     6  NO
+/Top2BtlD.rel              995888     1    20    3      581     6  NO
+/Top2field.rel             453756     2    17    3      418     2  NO
+/Top2fieldD.rel            447436     2    21    3      439    15  NO
+
+names spelled in main.dol : /r_top2btl.rel, /r_top2field.rel
+format strings that build a .rel name : none
+distinct contents : 8 of 8
+loadable       1240052 bytes
+unreachable    4115684 bytes on this disc
+
+/m_Top2Btl.rel
+    > DebugPrintf(...) -> Erorr!
+    bt_load.c
+    bt_exec.c
+    ./Btl/Debug/debug
+    bt_ef_in.c
+    bt_em_bk.c
+
+/m_Top2field.rel
+    Warning: DisplayObject.c: Overridding tev mode, but no tev mode user function set.
+    Warning: DisplayObject.c: User TevMode %d not handled.
+
+/r_Top2Btl.rel
+    bt_ef_in.c
+
+/r_Top2field.rel
+    Warning: DisplayObject.c: Overridding tev mode, but no tev mode user function set.
+    Warning: DisplayObject.c: User TevMode %d not handled.
+
+/Top2Btl.rel
+    > DebugPrintf(...) -> Erorr!
+    bt_load.c
+    bt_exec.c
+    ./Btl/Debug/debug
+    bt_ef_in.c
+    bt_em_bk.c
+
+/Top2BtlD.rel
+    bt_em_bk.c
+    ./Btl/Debug/debug
+    bt_exec.c
+    > DebugPrintf(...) -> Erorr!
+    bt_ef_in.c
+    bt_load.c
+
+/Top2field.rel
+    Warning: DisplayObject.c: Overridding tev mode, but no tev mode user function set.
+    Warning: DisplayObject.c: User TevMode %d not handled.
+
+/Top2fieldD.rel
+    field.c
+    Failed assertion pField->pSkyGTA
+    Failed assertion pField->pEnoData
+    Failed assertion pField->pSymData
+    Failed assertion pField->mapData[i].pMapBuff
+    Failed assertion pTmp
+    Failed assertion pField
+    Warning: DisplayObject.c: User TevMode %d not handled.
+    render.c
+    Warning: DisplayObject.c: Overridding tev mode, but no tev mode user function set.
+    Failed assertion mtxArray
+    draw.c
+    ... and 3 more
+

@@ -1,0 +1,4 @@
+literal bytes 1392876544, junk bytes 67101696, sum 1459978240, image 1459978240
+stored bytes  1194617013
+padding runs with a non-zero generator state: 1576
+sha1 c0b347d99ee3d55b7d1f14740b9062bc2c54a4ab

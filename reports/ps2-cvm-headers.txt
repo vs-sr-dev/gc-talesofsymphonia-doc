@@ -1,0 +1,117 @@
+container            TOSBTL.CVM
+file size            256256000 bytes
+header size field    2036
+volume size field    256256000
+file system          ROFS
+built by             ROFSBLD Ver.1.52 2003-06-09
+volume id            SAMPLE_GAME_TITLE
+publisher            PUBLISHER_NAME
+application          
+created              2004081615560400$
+volume space         125122 sectors
+contents             68 files, 256147686 bytes
+
+container            TOSCHT.CVM
+file size            2232320 bytes
+header size field    2036
+volume size field    2232320
+file system          ROFS
+built by             ROFSBLD Ver.1.52 2003-06-09
+volume id            SAMPLE_GAME_TITLE
+publisher            PUBLISHER_NAME
+application          
+created              2004081615560400$
+volume space         1087 sectors
+contents             486 files, 1632288 bytes
+
+container            TOSCV.CVM
+file size            317315072 bytes
+header size field    2036
+volume size field    317315072
+file system          ROFS
+built by             ROFSBLD Ver.1.52 2003-06-09
+volume id            SAMPLE_GAME_TITLE
+publisher            PUBLISHER_NAME
+application          
+created              2004081615560400$
+volume space         154936 sectors
+contents             3 files, 317265920 bytes
+
+container            TOSEV.CVM
+file size            651106304 bytes
+header size field    2036
+volume size field    651106304
+file system          ROFS
+built by             ROFSBLD Ver.1.52 2003-06-09
+volume id            SAMPLE_GAME_TITLE
+publisher            PUBLISHER_NAME
+application          
+created              2004081615560400$
+volume space         317920 sectors
+contents             13 files, 651057152 bytes
+
+container            TOSFIELD.CVM
+file size            54255616 bytes
+header size field    2036
+volume size field    54255616
+file system          ROFS
+built by             ROFSBLD Ver.1.52 2003-06-09
+volume id            SAMPLE_GAME_TITLE
+publisher            PUBLISHER_NAME
+application          
+created              2004081615560400$
+volume space         26489 sectors
+contents             256 files, 53965314 bytes
+
+container            TOSMAP.CVM
+file size            365133824 bytes
+header size field    2036
+volume size field    365133824
+file system          ROFS
+built by             ROFSBLD Ver.1.52 2003-06-09
+volume id            SAMPLE_GAME_TITLE
+publisher            PUBLISHER_NAME
+application          
+created              2004081615560400$
+volume space         178285 sectors
+contents             497 files, 364540192 bytes
+
+container            TOSMOV.CVM
+file size            1173964800 bytes
+header size field    2036
+volume size field    1173964800
+file system          ROFS
+built by             ROFSBLD Ver.1.52 2003-06-09
+volume id            SAMPLE_GAME_TITLE
+publisher            PUBLISHER_NAME
+application          
+created              2004081615560400$
+volume space         573222 sectors
+contents             13 files, 1173915648 bytes
+
+container            TOSROOT.CVM
+file size            187074560 bytes
+header size field    2036
+volume size field    187074560
+file system          ROFS
+built by             ROFSBLD Ver.1.52 2003-06-09
+volume id            SAMPLE_GAME_TITLE
+publisher            PUBLISHER_NAME
+application          
+created              2004081615560400$
+volume space         91342 sectors
+contents             197 files, 186826695 bytes
+
+container            TOSSND.CVM
+file size            558358528 bytes
+header size field    2036
+volume size field    558358528
+file system          ROFS
+built by             ROFSBLD Ver.1.52 2003-06-09
+volume id            SAMPLE_GAME_TITLE
+publisher            PUBLISHER_NAME
+application          
+created              2004081615560400$
+volume space         272633 sectors
+contents             177 files, 558227840 bytes
+

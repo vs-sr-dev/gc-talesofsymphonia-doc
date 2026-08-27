@@ -1,0 +1,108 @@
+tos-gc-d1.gcm
+  files                1602
+  distinct by content  1528
+  bytes                1382292034
+  distinct bytes       1381547694
+  bytes that are a copy 744340 (0.1%)
+
+      WASTED  COPIES         EACH  FIRST
+      456192       2       456192  /fontb1.dat
+      179200       6        35840  /sym_angel.bin
+       82944       2        82944  /dep_fontb0.dat
+        8896       2         8896  /pic000.tpl
+        7260       5         1815  /btl_ev005.so
+        3960      11          396  /S/bgm_c016.song
+        2816      23          128  /CHT/FC_B034.skp
+        2784      30           96  /CHT/FC_B022.skp
+         288       2          288  /CHT/FC_U092.skp
+
+tos-gc-d2.gcm
+  files                1598
+  distinct by content  1524
+  bytes                1405477770
+  distinct bytes       1404733430
+  bytes that are a copy 744340 (0.1%)
+
+      WASTED  COPIES         EACH  FIRST
+      456192       2       456192  /fontb1.dat
+      179200       6        35840  /sym_angel.bin
+       82944       2        82944  /dep_fontb0.dat
+        8896       2         8896  /pic000.tpl
+        7260       5         1815  /btl_ev005.so
+        3960      11          396  /S/bgm_c016.song
+        2816      23          128  /CHT/FC_B034.skp
+        2784      30           96  /CHT/FC_B022.skp
+         288       2          288  /CHT/FC_U092.skp
+
+between tos-gc-d1.gcm and tos-gc-d2.gcm
+  distinct contents on both   1514
+  bytes of them (one copy)    1002062413
+  as a share of tos-gc-d1.gcm  72.5%
+  as a share of tos-gc-d2.gcm  71.3%
+  bytes on tos-gc-d1.gcm       1002806753 (72.5%) are also on the other
+  bytes on tos-gc-d2.gcm       1002806753 (71.3%) are also on the other
+
+  same path on both discs     1589
+    identical content         1588 (1002806753 bytes)
+    different content         1
+  only on tos-gc-d1.gcm       13 files, 269179676 bytes
+  only on tos-gc-d2.gcm       9 files, 333440955 bytes
+
+  same name, different bytes:
+    /MOV/op.h4m                               110305605    69230062
+
+  only on tos-gc-d1.gcm:
+    /EV/sce_001_009.afs                        14342144
+    /EV/sce_011_020.afs                         7370752
+    /EV/sce_021_030.afs                        20826112
+    /EV/sce_031_040.afs                        19337216
+    /EV/sce_041_050.afs                        22636544
+    /EV/sce_051_060.afs                        19941376
+    /EV/sce_061_070.afs                        21606400
+    /EV/sce_071_083.afs                        21927936
+    /MOV/as1.h4m                               64464081
+    /MOV/s01.h4m                               23593525
+    /MOV/s03.h4m                                8601361
+    /MOV/s07.h4m                                8479315
+    /MOV/s08.h4m                               16052914
+
+  only on tos-gc-d2.gcm:
+    /EV/sce_084_090.afs                        13783040
+    /EV/sce_091_100.afs                        20463616
+    /EV/sce_101_110.afs                        36399104
+    /EV/sce_111_120.afs                        20185088
+    /EV/sce_121_132.afs                        41684992
+    /MOV/as2.h4m                               28191454
+    /MOV/as3.h4m                              141353314
+    /MOV/s09.h4m                               16157105
+    /MOV/s10.h4m                               15223242
+
+all of them together
+  files                3200
+  distinct by content  1538
+  bytes                2787769804
+  distinct bytes       1784218711
+  bytes that are a copy 1003551093 (36.0%)
+
+      WASTED  COPIES         EACH  FIRST
+    87184096       2     87184096  /npc_all.bin
+    81887232       2     81887232  /CV/cht_disc_1.afs
+    77952000       2     77952000  /BTL/BTLenemy.dat
+    51759104       2     51759104  /CV/cht_disc_2.afs
+    36655104       2     36655104  /BTL/btlvoice.afs
+    30554112       2     30554112  /BTL/BTLmagic.dat
+    26220512       2     26220512  /BTL/BTLbg.dat
+    22466880       2     22466880  /d.d
+    13176414       2     13176414  /tos_ending.adx
+    10321920       2     10321920  /BTL/BTLwin.bfp
+     3317760       2      3317760  /CV/cht_common.afs
+     3208384       2      3208384  /skit.skt
+     2730048       2      2730048  /BTL/BTLwepon.dat
+     2264576       2      2264576  /S/se.snd
+     2182528       2      2182528  /BTL/BTLvbank.dat
+     2114040       2      2114040  /MAP/izr_t00.bin
+     2057888       2      2057888  /llo_all.bin
+     1940954       2      1940954  /MAP/isa_t02.bin
+     1934496       2      1934496  /S/inst.snd
+     1888300       2      1888300  /MAP/yum_d00.bin
+

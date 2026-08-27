@@ -1,0 +1,59 @@
+STAMP                CAB                        MEMBER           DECLARED     STORED  RATIO
+2003-02-07 10:04:18  /BTL/BTLrutee.cab          BTLRUTEE.BIN       669408     298134  2.25x
+2003-03-25 14:28:44  /mahou.cab                 MAHOU.BIN           34304      14532  2.36x
+2003-03-25 14:29:56  /tbox.cab                  TBOX.BIN            23136      17154  1.35x
+2003-03-25 14:30:26  /tbox02.cab                TBOX02.BIN          21088      12884  1.64x
+2003-03-25 14:30:46  /tbox03.cab                TBOX03.BIN          24608      17538  1.40x
+2003-06-22 20:52:56  /BTL/BTLzelosz.cab         BTLZEL~1.BIN       899360     382376  2.35x
+2003-06-22 20:52:56  /BTL/BTLzelosz001.cab      BTLZEL~2.BIN       884640     377616  2.34x
+2003-06-22 20:52:58  /BTL/BTLzelosz002.cab      BTLZEL~3.BIN       874880     370834  2.36x
+2003-06-22 20:52:58  /BTL/BTLzelosz003.cab      BTLZEL~4.BIN       904704     387534  2.33x
+2003-06-23 12:16:48  /BTL/btllloyd.cab          BTLLLOYD.BIN       953568     368874  2.59x
+2003-06-23 12:16:48  /BTL/btllloyd001.cab       BTLLLO~1.BIN       958816     370314  2.59x
+2003-06-23 12:16:50  /BTL/btllloyd002.cab       BTLLLO~2.BIN       973216     378344  2.57x
+2003-06-23 12:16:52  /BTL/BTLlloyd003.cab       BTLLLO~3.BIN       938816     356208  2.64x
+2003-06-23 12:17:44  /BTL/BTLrefill.cab         BTLREF~1.BIN       733696     302726  2.42x
+2003-06-23 12:17:44  /BTL/BTLrefill001.cab      BTLREF~2.BIN       733216     298630  2.46x
+2003-06-23 12:17:46  /BTL/BTLrefill002.cab      BTLREF~3.BIN       723872     298950  2.42x
+2003-06-23 12:17:46  /BTL/BTLrefill003.cab      BTLREF~4.BIN       722560     285508  2.53x
+2003-06-23 12:18:10  /BTL/BTLshihna.cab         BTLSHI~1.BIN       867648     367860  2.36x
+2003-06-23 12:18:10  /BTL/BTLshihna001.cab      BTLSHI~2.BIN       833696     340854  2.45x
+2003-06-23 12:18:12  /BTL/BTLshihna002.cab      BTLSHI~3.BIN       861024     365620  2.35x
+2003-06-23 12:18:12  /BTL/BTLshihna003.cab      BTLSHI~4.BIN       636800     232036  2.74x
+2003-06-23 12:18:12  /BTL/BTLshihna004.cab      BT2581~1.BIN       837152     349324  2.40x
+2003-06-23 12:19:48  /BTL/BTLkratos.cab         BTLKRA~1.BIN       847008     349154  2.43x
+2003-06-23 12:19:50  /BTL/BTLkratos001.cab      BTLKRA~2.BIN       832736     342524  2.43x
+2003-06-23 12:19:52  /BTL/BTLkratos002.cab      BTLKRA~3.BIN       847008     350224  2.42x
+2003-06-23 12:19:52  /BTL/BTLkratos003.cab      BTLKRA~4.BIN       847008     350224  2.42x
+2003-06-27 18:44:06  /BTL/BTLpresea.cab         BTLPRE~1.BIN       906208     357632  2.53x
+2003-06-27 18:44:08  /BTL/BTLpresea001.cab      BTLPRE~2.BIN       911264     368614  2.47x
+2003-06-27 18:44:08  /BTL/BTLpresea002.cab      BTLPRE~3.BIN       901760     360290  2.50x
+2003-06-27 18:44:10  /BTL/BTLpresea003.cab      BTLPRE~4.BIN       906208     357442  2.54x
+2003-06-27 18:44:10  /BTL/BTLpresea004.cab      BT1554~1.BIN       866432     333530  2.60x
+2003-07-03 12:48:28  /effect.cab                EFFECT.TPL         536992     119510  4.49x
+2003-07-08 15:27:44  /BTL/BTLregal.cab          BTLREGAL.BIN       877504     361158  2.43x
+2003-07-08 15:27:46  /BTL/BTLregal001.cab       BTLREG~1.BIN       838304     337324  2.49x
+2003-07-08 15:27:48  /BTL/BTLregal002.cab       BTLREG~2.BIN       836224     335202  2.49x
+2003-07-08 15:27:48  /BTL/BTLregal003.cab       BTLREG~3.BIN       829056     331896  2.50x
+2003-07-16 10:39:46  /BTL/BTLcollet.cab         BTLCOL~1.BIN       820512     336416  2.44x
+2003-07-16 10:39:48  /BTL/BTLcollet001.cab      BTLCOL~2.BIN       806912     316520  2.55x
+2003-07-16 10:39:50  /BTL/BTLcollet002.cab      BTLCOL~3.BIN       799904     315894  2.53x
+2003-07-16 10:39:52  /BTL/BTLcollet003.cab      BTLCOL~4.BIN       812448     318238  2.55x
+2003-07-16 10:39:54  /BTL/BTLcollet005.cab      BTA238~1.BIN       789536     304202  2.60x
+2003-07-24 12:38:32  /BTL/BTLgenius.cab         BTLGEN~1.BIN       774400     299934  2.58x
+2003-07-24 12:38:34  /BTL/BTLgenius001.cab      BTLGEN~2.BIN       780288     305258  2.56x
+2003-07-24 12:38:34  /BTL/BTLgenius002.cab      BTLGEN~3.BIN       747712     284974  2.62x
+2003-07-24 12:38:36  /BTL/BTLgenius003.cab      BTLGEN~4.BIN       771200     297148  2.60x
+
+45 archives
+
+DAY          ARCHIVES
+2003-02-07   1
+2003-03-25   4
+2003-06-22   4
+2003-06-23   17
+2003-06-27   5
+2003-07-03   1
+2003-07-08   4
+2003-07-16   5
+2003-07-24   4

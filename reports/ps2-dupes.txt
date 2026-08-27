@@ -1,0 +1,2957 @@
+TOSROOT.CVM
+  files                197
+  distinct by content  184
+  bytes                186826695
+  distinct bytes       184335179
+  bytes that are a copy 2491516 (1.3%)
+
+      WASTED  COPIES         EACH  FIRST
+      299648       2       299648  /L_REGAL000.BIN
+      292544       2       292544  /COLLET_LOW.BIN
+      284288       2       284288  /KRATOS_LOW.BIN
+      282816       2       282816  /L_ZELOSZ000.BIN
+      281024       2       281024  /L_SHIHNA000.BIN
+      267904       2       267904  /L_PRESEA000.BIN
+      266368       2       266368  /L_REFILL000.BIN
+      266304       2       266304  /LLOYD_LOW.BIN
+      239424       2       239424  /GENIUS_LOW.BIN
+       11004       2        11004  /END.TXT
+         192       4           64  /COLLET003.BIN
+
+TOSCHT.CVM
+  files                486
+  distinct by content  439
+  bytes                1632288
+  distinct bytes       1624480
+  bytes that are a copy 7808 (0.5%)
+
+      WASTED  COPIES         EACH  FIRST
+        3840      21          192  /FC_B034.SKP
+        2688      15          192  /FC_B022.SKP
+        1152      13           96  /FC_C106.SKP
+         128       2          128  /FC_C104.SKP
+
+TOSFIELD.CVM
+  files                256
+  distinct by content  256
+  bytes                53965314
+  distinct bytes       53965314
+  bytes that are a copy 0 (0.0%)
+
+TOSCV.CVM
+  files                3
+  distinct by content  3
+  bytes                317265920
+  distinct bytes       317265920
+  bytes that are a copy 0 (0.0%)
+
+TOSEV.CVM
+  files                13
+  distinct by content  13
+  bytes                651057152
+  distinct bytes       651057152
+  bytes that are a copy 0 (0.0%)
+
+TOSMAP.CVM
+  files                497
+  distinct by content  497
+  bytes                364540192
+  distinct bytes       364540192
+  bytes that are a copy 0 (0.0%)
+
+TOSBTL.CVM
+  files                68
+  distinct by content  68
+  bytes                256147686
+  distinct bytes       256147686
+  bytes that are a copy 0 (0.0%)
+
+TOSSND.CVM
+  files                177
+  distinct by content  177
+  bytes                558227840
+  distinct bytes       558227840
+  bytes that are a copy 0 (0.0%)
+
+TOSMOV.CVM
+  files                13
+  distinct by content  13
+  bytes                1173915648
+  distinct bytes       1173915648
+  bytes that are a copy 0 (0.0%)
+
+between TOSROOT.CVM and TOSCHT.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSROOT.CVM    0.0%
+  as a share of TOSCHT.CVM     0.0%
+  bytes on TOSROOT.CVM         0 (0.0%) are also on the other
+  bytes on TOSCHT.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSROOT.CVM         197 files, 186826695 bytes
+  only on TOSCHT.CVM          486 files, 1632288 bytes
+
+  only on TOSROOT.CVM:
+    /BOOT.NUT                                    184176
+    /BTL_EV002.SO                                  2716
+    /BTL_EV003.SO                                  6825
+    /BTL_EV004.SO                                   863
+    /COLLET.BIN                                  141632
+    /COLLET000.BIN                               338240
+    /COLLET001.BIN                               331328
+    /COLLET002.BIN                               315456
+    /COLLET003.BIN                                   64
+    /COLLET004.BIN                               370944
+    /COLLET005.BIN                               306048
+    /COLLET009.BIN                               329920
+    /COLLET_EX.BIN                               102976
+    /COLLET_LOW.BIN                              292544
+    /COL_ALL.BIN                                2000896
+    /COL_WING.BIN                                 36288
+    /D.D                                       20580352
+    /D_OV_BTL.BIN                                996736
+    /D_OV_M1.BIN                                 205184
+    /D_OV_SFD.BIN                                281728
+    /EFFECT.CAB                                   49317
+    /END.TXT                                      11004
+    /ENDING_A.NUT                                308320
+    /ENDING_B.NUT                                308320
+    /END_ROLL.NUT                                 24448
+    /FIELD_SIL.SO                                 22544
+    /FIN.NUT                                       8944
+    /FONTDATA.NUT                                555056
+    /FONTTYPEA.NUT                               555056
+    /FONTTYPEB.NUT                               555056
+    /FONTTYPEC.NUT                               555056
+    /GENIUS.BIN                                  188992
+    /GENIUS000.BIN                               268032
+    /GENIUS001.BIN                               273408
+    /GENIUS002.BIN                               247360
+    /GENIUS003.BIN                               259456
+    /GENIUS009.BIN                               248064
+    /GENIUS_EX.BIN                               160384
+    /GENIUS_LOW.BIN                              239424
+    /GEN_ALL.BIN                                1632256
+    ... and 157 more
+
+  only on TOSCHT.CVM:
+    /FC_B000.SKP                                   3968
+    /FC_B001.SKP                                   3072
+    /FC_B002.SKP                                   1664
+    /FC_B003.SKP                                   1216
+    /FC_B004.SKP                                   2496
+    /FC_B005.SKP                                   1472
+    /FC_B006.SKP                                   2432
+    /FC_B007.SKP                                   3072
+    /FC_B008.SKP                                   2048
+    /FC_B009.SKP                                   4096
+    /FC_B010.SKP                                   2816
+    /FC_B011.SKP                                   1472
+    /FC_B012.SKP                                   2560
+    /FC_B013.SKP                                   3328
+    /FC_B014.SKP                                   3072
+    /FC_B015.SKP                                   2176
+    /FC_B016.SKP                                   2560
+    /FC_B017.SKP                                   3776
+    /FC_B018.SKP                                   3712
+    /FC_B019.SKP                                   3520
+    /FC_B020.SKP                                   3264
+    /FC_B021.SKP                                   6080
+    /FC_B022.SKP                                    192
+    /FC_B023.SKP                                    192
+    /FC_B024.SKP                                    192
+    /FC_B025.SKP                                    192
+    /FC_B026.SKP                                    192
+    /FC_B027.SKP                                    192
+    /FC_B028.SKP                                   4224
+    /FC_B029.SKP                                    192
+    /FC_B030.SKP                                   4928
+    /FC_B031.SKP                                   4864
+    /FC_B032.SKP                                   3392
+    /FC_B033.SKP                                   6592
+    /FC_B034.SKP                                    192
+    /FC_C000.SKP                                   3392
+    /FC_C001.SKP                                   1408
+    /FC_C002.SKP                                   2624
+    /FC_C003.SKP                                   2368
+    /FC_C004.SKP                                   4480
+    ... and 446 more
+
+between TOSROOT.CVM and TOSFIELD.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSROOT.CVM    0.0%
+  as a share of TOSFIELD.CVM   0.0%
+  bytes on TOSROOT.CVM         0 (0.0%) are also on the other
+  bytes on TOSFIELD.CVM        0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSROOT.CVM         197 files, 186826695 bytes
+  only on TOSFIELD.CVM        256 files, 53965314 bytes
+
+  only on TOSROOT.CVM:
+    /BOOT.NUT                                    184176
+    /BTL_EV002.SO                                  2716
+    /BTL_EV003.SO                                  6825
+    /BTL_EV004.SO                                   863
+    /COLLET.BIN                                  141632
+    /COLLET000.BIN                               338240
+    /COLLET001.BIN                               331328
+    /COLLET002.BIN                               315456
+    /COLLET003.BIN                                   64
+    /COLLET004.BIN                               370944
+    /COLLET005.BIN                               306048
+    /COLLET009.BIN                               329920
+    /COLLET_EX.BIN                               102976
+    /COLLET_LOW.BIN                              292544
+    /COL_ALL.BIN                                2000896
+    /COL_WING.BIN                                 36288
+    /D.D                                       20580352
+    /D_OV_BTL.BIN                                996736
+    /D_OV_M1.BIN                                 205184
+    /D_OV_SFD.BIN                                281728
+    /EFFECT.CAB                                   49317
+    /END.TXT                                      11004
+    /ENDING_A.NUT                                308320
+    /ENDING_B.NUT                                308320
+    /END_ROLL.NUT                                 24448
+    /FIELD_SIL.SO                                 22544
+    /FIN.NUT                                       8944
+    /FONTDATA.NUT                                555056
+    /FONTTYPEA.NUT                               555056
+    /FONTTYPEB.NUT                               555056
+    /FONTTYPEC.NUT                               555056
+    /GENIUS.BIN                                  188992
+    /GENIUS000.BIN                               268032
+    /GENIUS001.BIN                               273408
+    /GENIUS002.BIN                               247360
+    /GENIUS003.BIN                               259456
+    /GENIUS009.BIN                               248064
+    /GENIUS_EX.BIN                               160384
+    /GENIUS_LOW.BIN                              239424
+    /GEN_ALL.BIN                                1632256
+    ... and 157 more
+
+  only on TOSFIELD.CVM:
+    /00.DAT                                      129792
+    /01.DAT                                      110592
+    /02.DAT                                       75264
+    /03.DAT                                      280576
+    /04.DAT                                       40960
+    /05.DAT                                       67712
+    /06.DAT                                      202624
+    /06A.DAT                                     190080
+    /07.DAT                                      212864
+    /07A.DAT                                     282496
+    /08.DAT                                      163840
+    /09.DAT                                       41984
+    /0A.DAT                                       37632
+    /0B.DAT                                       37248
+    /10.DAT                                      128128
+    /11.DAT                                      163840
+    /12.DAT                                       97792
+    /13.DAT                                       55424
+    /14.DAT                                      109184
+    /15.DAT                                      101376
+    /16.DAT                                      186368
+    /17.DAT                                      143744
+    /18.DAT                                      185216
+    /19.DAT                                      117888
+    /1A.DAT                                       38784
+    /1B.DAT                                       39040
+    /20.DAT                                       82432
+    /21.DAT                                       41984
+    /22.DAT                                       38144
+    /23.DAT                                       91904
+    /24.DAT                                      221696
+    /25.DAT                                      280320
+    /26.DAT                                      259584
+    /27.DAT                                      258944
+    /28.DAT                                      270080
+    /29.DAT                                       70528
+    /2A.DAT                                      193536
+    /2AA.DAT                                     212096
+    /2B.DAT                                      258944
+    /2BA.DAT                                     248832
+    ... and 216 more
+
+between TOSROOT.CVM and TOSCV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSROOT.CVM    0.0%
+  as a share of TOSCV.CVM      0.0%
+  bytes on TOSROOT.CVM         0 (0.0%) are also on the other
+  bytes on TOSCV.CVM           0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSROOT.CVM         197 files, 186826695 bytes
+  only on TOSCV.CVM           3 files, 317265920 bytes
+
+  only on TOSROOT.CVM:
+    /BOOT.NUT                                    184176
+    /BTL_EV002.SO                                  2716
+    /BTL_EV003.SO                                  6825
+    /BTL_EV004.SO                                   863
+    /COLLET.BIN                                  141632
+    /COLLET000.BIN                               338240
+    /COLLET001.BIN                               331328
+    /COLLET002.BIN                               315456
+    /COLLET003.BIN                                   64
+    /COLLET004.BIN                               370944
+    /COLLET005.BIN                               306048
+    /COLLET009.BIN                               329920
+    /COLLET_EX.BIN                               102976
+    /COLLET_LOW.BIN                              292544
+    /COL_ALL.BIN                                2000896
+    /COL_WING.BIN                                 36288
+    /D.D                                       20580352
+    /D_OV_BTL.BIN                                996736
+    /D_OV_M1.BIN                                 205184
+    /D_OV_SFD.BIN                                281728
+    /EFFECT.CAB                                   49317
+    /END.TXT                                      11004
+    /ENDING_A.NUT                                308320
+    /ENDING_B.NUT                                308320
+    /END_ROLL.NUT                                 24448
+    /FIELD_SIL.SO                                 22544
+    /FIN.NUT                                       8944
+    /FONTDATA.NUT                                555056
+    /FONTTYPEA.NUT                               555056
+    /FONTTYPEB.NUT                               555056
+    /FONTTYPEC.NUT                               555056
+    /GENIUS.BIN                                  188992
+    /GENIUS000.BIN                               268032
+    /GENIUS001.BIN                               273408
+    /GENIUS002.BIN                               247360
+    /GENIUS003.BIN                               259456
+    /GENIUS009.BIN                               248064
+    /GENIUS_EX.BIN                               160384
+    /GENIUS_LOW.BIN                              239424
+    /GEN_ALL.BIN                                1632256
+    ... and 157 more
+
+  only on TOSCV.CVM:
+    /CHT_COMMON.AFS                             7727104
+    /CHT_DISC_1.AFS                           189470720
+    /CHT_DISC_2.AFS                           120068096
+
+between TOSROOT.CVM and TOSEV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSROOT.CVM    0.0%
+  as a share of TOSEV.CVM      0.0%
+  bytes on TOSROOT.CVM         0 (0.0%) are also on the other
+  bytes on TOSEV.CVM           0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSROOT.CVM         197 files, 186826695 bytes
+  only on TOSEV.CVM           13 files, 651057152 bytes
+
+  only on TOSROOT.CVM:
+    /BOOT.NUT                                    184176
+    /BTL_EV002.SO                                  2716
+    /BTL_EV003.SO                                  6825
+    /BTL_EV004.SO                                   863
+    /COLLET.BIN                                  141632
+    /COLLET000.BIN                               338240
+    /COLLET001.BIN                               331328
+    /COLLET002.BIN                               315456
+    /COLLET003.BIN                                   64
+    /COLLET004.BIN                               370944
+    /COLLET005.BIN                               306048
+    /COLLET009.BIN                               329920
+    /COLLET_EX.BIN                               102976
+    /COLLET_LOW.BIN                              292544
+    /COL_ALL.BIN                                2000896
+    /COL_WING.BIN                                 36288
+    /D.D                                       20580352
+    /D_OV_BTL.BIN                                996736
+    /D_OV_M1.BIN                                 205184
+    /D_OV_SFD.BIN                                281728
+    /EFFECT.CAB                                   49317
+    /END.TXT                                      11004
+    /ENDING_A.NUT                                308320
+    /ENDING_B.NUT                                308320
+    /END_ROLL.NUT                                 24448
+    /FIELD_SIL.SO                                 22544
+    /FIN.NUT                                       8944
+    /FONTDATA.NUT                                555056
+    /FONTTYPEA.NUT                               555056
+    /FONTTYPEB.NUT                               555056
+    /FONTTYPEC.NUT                               555056
+    /GENIUS.BIN                                  188992
+    /GENIUS000.BIN                               268032
+    /GENIUS001.BIN                               273408
+    /GENIUS002.BIN                               247360
+    /GENIUS003.BIN                               259456
+    /GENIUS009.BIN                               248064
+    /GENIUS_EX.BIN                               160384
+    /GENIUS_LOW.BIN                              239424
+    /GEN_ALL.BIN                                1632256
+    ... and 157 more
+
+  only on TOSEV.CVM:
+    /SCE_001_009.AFS                           33269760
+    /SCE_011_020.AFS                           17149952
+    /SCE_021_030.AFS                           48359424
+    /SCE_031_040.AFS                           44972032
+    /SCE_041_050.AFS                           52830208
+    /SCE_051_060.AFS                           46231552
+    /SCE_061_070.AFS                           50249728
+    /SCE_071_083.AFS                           49668096
+    /SCE_084_090.AFS                           32086016
+    /SCE_091_100.AFS                           47554560
+    /SCE_101_110.AFS                           84774912
+    /SCE_111_120.AFS                           46987264
+    /SCE_121_132.AFS                           96923648
+
+between TOSROOT.CVM and TOSMAP.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSROOT.CVM    0.0%
+  as a share of TOSMAP.CVM     0.0%
+  bytes on TOSROOT.CVM         0 (0.0%) are also on the other
+  bytes on TOSMAP.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSROOT.CVM         197 files, 186826695 bytes
+  only on TOSMAP.CVM          497 files, 364540192 bytes
+
+  only on TOSROOT.CVM:
+    /BOOT.NUT                                    184176
+    /BTL_EV002.SO                                  2716
+    /BTL_EV003.SO                                  6825
+    /BTL_EV004.SO                                   863
+    /COLLET.BIN                                  141632
+    /COLLET000.BIN                               338240
+    /COLLET001.BIN                               331328
+    /COLLET002.BIN                               315456
+    /COLLET003.BIN                                   64
+    /COLLET004.BIN                               370944
+    /COLLET005.BIN                               306048
+    /COLLET009.BIN                               329920
+    /COLLET_EX.BIN                               102976
+    /COLLET_LOW.BIN                              292544
+    /COL_ALL.BIN                                2000896
+    /COL_WING.BIN                                 36288
+    /D.D                                       20580352
+    /D_OV_BTL.BIN                                996736
+    /D_OV_M1.BIN                                 205184
+    /D_OV_SFD.BIN                                281728
+    /EFFECT.CAB                                   49317
+    /END.TXT                                      11004
+    /ENDING_A.NUT                                308320
+    /ENDING_B.NUT                                308320
+    /END_ROLL.NUT                                 24448
+    /FIELD_SIL.SO                                 22544
+    /FIN.NUT                                       8944
+    /FONTDATA.NUT                                555056
+    /FONTTYPEA.NUT                               555056
+    /FONTTYPEB.NUT                               555056
+    /FONTTYPEC.NUT                               555056
+    /GENIUS.BIN                                  188992
+    /GENIUS000.BIN                               268032
+    /GENIUS001.BIN                               273408
+    /GENIUS002.BIN                               247360
+    /GENIUS003.BIN                               259456
+    /GENIUS009.BIN                               248064
+    /GENIUS_EX.BIN                               160384
+    /GENIUS_LOW.BIN                              239424
+    /GEN_ALL.BIN                                1632256
+    ... and 157 more
+
+  only on TOSMAP.CVM:
+    /AQU_D00.BIN                                 639927
+    /AQU_D01.BIN                                 975661
+    /AQU_D02.BIN                                1041390
+    /AQU_D03.BIN                                1024100
+    /AQU_D04.BIN                                 829761
+    /ART_I00B.BIN                                816281
+    /ART_I00_00.BIN                              843921
+    /ART_I00_01.BIN                              619524
+    /ART_I00_02.BIN                              847598
+    /ART_I00_03.BIN                              517113
+    /ART_I00_04.BIN                              589366
+    /ART_I00_05.BIN                              943264
+    /ART_I00_06.BIN                              434677
+    /ART_I00_07.BIN                              480581
+    /ART_I01_00.BIN                              977130
+    /ART_I01_01.BIN                              804184
+    /ART_I01_02.BIN                              995890
+    /ART_I01_03.BIN                             1064499
+    /ART_I02.BIN                                 876882
+    /ART_T00.BIN                                 703105
+    /ART_T01.BIN                                 575227
+    /ART_T02.BIN                                 386572
+    /ART_T03.BIN                                 415427
+    /ART_T04.BIN                                 795308
+    /ASK_I00.BIN                                1195434
+    /ASK_I01_00.BIN                              679008
+    /ASK_I01_01.BIN                              382454
+    /ASK_I01_02.BIN                              673832
+    /ASK_I01_03.BIN                              550713
+    /ASK_I02_00.BIN                              740874
+    /ASK_I02_01.BIN                              596969
+    /ASK_I02_02.BIN                              591801
+    /ASK_I02_03.BIN                              595328
+    /ASK_I03.BIN                                 840082
+    /ASK_I04.BIN                                 879241
+    /ASK_I05_00.BIN                              876377
+    /ASK_I05_01.BIN                              785245
+    /ASK_I06.BIN                                 967046
+    /ASK_I07_00.BIN                             1323443
+    /ASK_I07_01.BIN                              898642
+    ... and 457 more
+
+between TOSROOT.CVM and TOSBTL.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSROOT.CVM    0.0%
+  as a share of TOSBTL.CVM     0.0%
+  bytes on TOSROOT.CVM         0 (0.0%) are also on the other
+  bytes on TOSBTL.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSROOT.CVM         197 files, 186826695 bytes
+  only on TOSBTL.CVM          68 files, 256147686 bytes
+
+  only on TOSROOT.CVM:
+    /BOOT.NUT                                    184176
+    /BTL_EV002.SO                                  2716
+    /BTL_EV003.SO                                  6825
+    /BTL_EV004.SO                                   863
+    /COLLET.BIN                                  141632
+    /COLLET000.BIN                               338240
+    /COLLET001.BIN                               331328
+    /COLLET002.BIN                               315456
+    /COLLET003.BIN                                   64
+    /COLLET004.BIN                               370944
+    /COLLET005.BIN                               306048
+    /COLLET009.BIN                               329920
+    /COLLET_EX.BIN                               102976
+    /COLLET_LOW.BIN                              292544
+    /COL_ALL.BIN                                2000896
+    /COL_WING.BIN                                 36288
+    /D.D                                       20580352
+    /D_OV_BTL.BIN                                996736
+    /D_OV_M1.BIN                                 205184
+    /D_OV_SFD.BIN                                281728
+    /EFFECT.CAB                                   49317
+    /END.TXT                                      11004
+    /ENDING_A.NUT                                308320
+    /ENDING_B.NUT                                308320
+    /END_ROLL.NUT                                 24448
+    /FIELD_SIL.SO                                 22544
+    /FIN.NUT                                       8944
+    /FONTDATA.NUT                                555056
+    /FONTTYPEA.NUT                               555056
+    /FONTTYPEB.NUT                               555056
+    /FONTTYPEC.NUT                               555056
+    /GENIUS.BIN                                  188992
+    /GENIUS000.BIN                               268032
+    /GENIUS001.BIN                               273408
+    /GENIUS002.BIN                               247360
+    /GENIUS003.BIN                               259456
+    /GENIUS009.BIN                               248064
+    /GENIUS_EX.BIN                               160384
+    /GENIUS_LOW.BIN                              239424
+    /GEN_ALL.BIN                                1632256
+    ... and 157 more
+
+  only on TOSBTL.CVM:
+    /01.ABN                                      134096
+    /02.ABN                                      175056
+    /03.ABN                                      180112
+    /04.ABN                                      158992
+    /05.ABN                                      176912
+    /06.ABN                                      209552
+    /07.ABN                                      142672
+    /08.ABN                                      161552
+    /09.ABN                                      142736
+    /BTLBG.DAT                                 10860544
+    /BTLCOLLET.CAB                               320651
+    /BTLCOLLET001.CAB                            299495
+    /BTLCOLLET002.CAB                            298179
+    /BTLCOLLET003.CAB                            303275
+    /BTLCOLLET005.CAB                            290707
+    /BTLCOLLET009.CAB                            301299
+    /BTLENEMY.DAT                              47814656
+    /BTLGENIUS.CAB                               286689
+    /BTLGENIUS001.CAB                            286665
+    /BTLGENIUS002.CAB                            274905
+    /BTLGENIUS003.CAB                            282271
+    /BTLGENIUS009.CAB                            283625
+    /BTLKRATOS.CAB                               340693
+    /BTLKRATOS001.CAB                            339097
+    /BTLKRATOS002.CAB                            340063
+    /BTLKRATOS003.CAB                            340063
+    /BTLKRATOS009.CAB                            325443
+    /BTLLLOYD.CAB                                351707
+    /BTLLLOYD001.CAB                             348269
+    /BTLLLOYD002.CAB                             355339
+    /BTLLLOYD003.CAB                             336923
+    /BTLLLOYD009.CAB                             349037
+    /BTLMAGIC.DAT                              23502848
+    /BTLMBENM.DAT                              69332992
+    /BTLPRESEA.CAB                               390525
+    /BTLPRESEA001.CAB                            392951
+    /BTLPRESEA002.CAB                            386977
+    /BTLPRESEA003.CAB                            390185
+    /BTLPRESEA004.CAB                            369269
+    /BTLPRESEA009.CAB                            384649
+    ... and 28 more
+
+between TOSROOT.CVM and TOSSND.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSROOT.CVM    0.0%
+  as a share of TOSSND.CVM     0.0%
+  bytes on TOSROOT.CVM         0 (0.0%) are also on the other
+  bytes on TOSSND.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSROOT.CVM         197 files, 186826695 bytes
+  only on TOSSND.CVM          177 files, 558227840 bytes
+
+  only on TOSROOT.CVM:
+    /BOOT.NUT                                    184176
+    /BTL_EV002.SO                                  2716
+    /BTL_EV003.SO                                  6825
+    /BTL_EV004.SO                                   863
+    /COLLET.BIN                                  141632
+    /COLLET000.BIN                               338240
+    /COLLET001.BIN                               331328
+    /COLLET002.BIN                               315456
+    /COLLET003.BIN                                   64
+    /COLLET004.BIN                               370944
+    /COLLET005.BIN                               306048
+    /COLLET009.BIN                               329920
+    /COLLET_EX.BIN                               102976
+    /COLLET_LOW.BIN                              292544
+    /COL_ALL.BIN                                2000896
+    /COL_WING.BIN                                 36288
+    /D.D                                       20580352
+    /D_OV_BTL.BIN                                996736
+    /D_OV_M1.BIN                                 205184
+    /D_OV_SFD.BIN                                281728
+    /EFFECT.CAB                                   49317
+    /END.TXT                                      11004
+    /ENDING_A.NUT                                308320
+    /ENDING_B.NUT                                308320
+    /END_ROLL.NUT                                 24448
+    /FIELD_SIL.SO                                 22544
+    /FIN.NUT                                       8944
+    /FONTDATA.NUT                                555056
+    /FONTTYPEA.NUT                               555056
+    /FONTTYPEB.NUT                               555056
+    /FONTTYPEC.NUT                               555056
+    /GENIUS.BIN                                  188992
+    /GENIUS000.BIN                               268032
+    /GENIUS001.BIN                               273408
+    /GENIUS002.BIN                               247360
+    /GENIUS003.BIN                               259456
+    /GENIUS009.BIN                               248064
+    /GENIUS_EX.BIN                               160384
+    /GENIUS_LOW.BIN                              239424
+    /GEN_ALL.BIN                                1632256
+    ... and 157 more
+
+  only on TOSSND.CVM:
+    /ALLPHD.PAK                                  126272
+    /BGM_B000.ADX                               4679680
+    /BGM_B001.ADX                               5484544
+    /BGM_B002.ADX                               4020224
+    /BGM_B003.ADX                               5859328
+    /BGM_B004.ADX                               5302272
+    /BGM_B005.ADX                               5255168
+    /BGM_B006.ADX                               4470784
+    /BGM_B007.ADX                               4085760
+    /BGM_B008.ADX                               6103040
+    /BGM_B009.ADX                               5748736
+    /BGM_B010.ADX                               2013184
+    /BGM_B011.ADX                               1845248
+    /BGM_B012.ADX                               3917824
+    /BGM_B013.ADX                               4059136
+    /BGM_C000.ADX                               2994176
+    /BGM_C001.ADX                               2437120
+    /BGM_C003.ADX                               2082816
+    /BGM_C004.ADX                               4378624
+    /BGM_C006.ADX                               1812480
+    /BGM_C007.ADX                               4937728
+    /BGM_C008.ADX                               3514368
+    /BGM_C009.ADX                               2701312
+    /BGM_C011.ADX                               3172352
+    /BGM_C013.ADX                               2435072
+    /BGM_C014.ADX                               4085760
+    /BGM_C015.ADX                               4444160
+    /BGM_C017.ADX                               4554752
+    /BGM_C019.ADX                               2932736
+    /BGM_C021.ADX                               4886528
+    /BGM_C022.ADX                               3983360
+    /BGM_C024.ADX                               4200448
+    /BGM_C025.ADX                               3143680
+    /BGM_C026.ADX                               5136384
+    /BGM_C027.ADX                               1976320
+    /BGM_C028.ADX                               2177024
+    /BGM_D000.ADX                               4448256
+    /BGM_D001.ADX                               5169152
+    /BGM_D002.ADX                               3411968
+    /BGM_D003.ADX                               4272128
+    ... and 137 more
+
+between TOSROOT.CVM and TOSMOV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSROOT.CVM    0.0%
+  as a share of TOSMOV.CVM     0.0%
+  bytes on TOSROOT.CVM         0 (0.0%) are also on the other
+  bytes on TOSMOV.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSROOT.CVM         197 files, 186826695 bytes
+  only on TOSMOV.CVM          13 files, 1173915648 bytes
+
+  only on TOSROOT.CVM:
+    /BOOT.NUT                                    184176
+    /BTL_EV002.SO                                  2716
+    /BTL_EV003.SO                                  6825
+    /BTL_EV004.SO                                   863
+    /COLLET.BIN                                  141632
+    /COLLET000.BIN                               338240
+    /COLLET001.BIN                               331328
+    /COLLET002.BIN                               315456
+    /COLLET003.BIN                                   64
+    /COLLET004.BIN                               370944
+    /COLLET005.BIN                               306048
+    /COLLET009.BIN                               329920
+    /COLLET_EX.BIN                               102976
+    /COLLET_LOW.BIN                              292544
+    /COL_ALL.BIN                                2000896
+    /COL_WING.BIN                                 36288
+    /D.D                                       20580352
+    /D_OV_BTL.BIN                                996736
+    /D_OV_M1.BIN                                 205184
+    /D_OV_SFD.BIN                                281728
+    /EFFECT.CAB                                   49317
+    /END.TXT                                      11004
+    /ENDING_A.NUT                                308320
+    /ENDING_B.NUT                                308320
+    /END_ROLL.NUT                                 24448
+    /FIELD_SIL.SO                                 22544
+    /FIN.NUT                                       8944
+    /FONTDATA.NUT                                555056
+    /FONTTYPEA.NUT                               555056
+    /FONTTYPEB.NUT                               555056
+    /FONTTYPEC.NUT                               555056
+    /GENIUS.BIN                                  188992
+    /GENIUS000.BIN                               268032
+    /GENIUS001.BIN                               273408
+    /GENIUS002.BIN                               247360
+    /GENIUS003.BIN                               259456
+    /GENIUS009.BIN                               248064
+    /GENIUS_EX.BIN                               160384
+    /GENIUS_LOW.BIN                              239424
+    /GEN_ALL.BIN                                1632256
+    ... and 157 more
+
+  only on TOSMOV.CVM:
+    /AS01.SFD                                 106610688
+    /AS02.SFD                                  53145600
+    /AS03.SFD                                 284207104
+    /AS_ADD00.SFD                              21686272
+    /AS_ADD01.SFD                              20801536
+    /END.SFD                                  332713984
+    /OP.SFD                                   123512832
+    /S01.SFD                                   55808000
+    /S03.SFD                                   24363008
+    /S07.SFD                                   21721088
+    /S08.SFD                                   40601600
+    /S09.SFD                                   49420288
+    /S10.SFD                                   39323648
+
+between TOSCHT.CVM and TOSFIELD.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSCHT.CVM     0.0%
+  as a share of TOSFIELD.CVM   0.0%
+  bytes on TOSCHT.CVM          0 (0.0%) are also on the other
+  bytes on TOSFIELD.CVM        0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSCHT.CVM          486 files, 1632288 bytes
+  only on TOSFIELD.CVM        256 files, 53965314 bytes
+
+  only on TOSCHT.CVM:
+    /FC_B000.SKP                                   3968
+    /FC_B001.SKP                                   3072
+    /FC_B002.SKP                                   1664
+    /FC_B003.SKP                                   1216
+    /FC_B004.SKP                                   2496
+    /FC_B005.SKP                                   1472
+    /FC_B006.SKP                                   2432
+    /FC_B007.SKP                                   3072
+    /FC_B008.SKP                                   2048
+    /FC_B009.SKP                                   4096
+    /FC_B010.SKP                                   2816
+    /FC_B011.SKP                                   1472
+    /FC_B012.SKP                                   2560
+    /FC_B013.SKP                                   3328
+    /FC_B014.SKP                                   3072
+    /FC_B015.SKP                                   2176
+    /FC_B016.SKP                                   2560
+    /FC_B017.SKP                                   3776
+    /FC_B018.SKP                                   3712
+    /FC_B019.SKP                                   3520
+    /FC_B020.SKP                                   3264
+    /FC_B021.SKP                                   6080
+    /FC_B022.SKP                                    192
+    /FC_B023.SKP                                    192
+    /FC_B024.SKP                                    192
+    /FC_B025.SKP                                    192
+    /FC_B026.SKP                                    192
+    /FC_B027.SKP                                    192
+    /FC_B028.SKP                                   4224
+    /FC_B029.SKP                                    192
+    /FC_B030.SKP                                   4928
+    /FC_B031.SKP                                   4864
+    /FC_B032.SKP                                   3392
+    /FC_B033.SKP                                   6592
+    /FC_B034.SKP                                    192
+    /FC_C000.SKP                                   3392
+    /FC_C001.SKP                                   1408
+    /FC_C002.SKP                                   2624
+    /FC_C003.SKP                                   2368
+    /FC_C004.SKP                                   4480
+    ... and 446 more
+
+  only on TOSFIELD.CVM:
+    /00.DAT                                      129792
+    /01.DAT                                      110592
+    /02.DAT                                       75264
+    /03.DAT                                      280576
+    /04.DAT                                       40960
+    /05.DAT                                       67712
+    /06.DAT                                      202624
+    /06A.DAT                                     190080
+    /07.DAT                                      212864
+    /07A.DAT                                     282496
+    /08.DAT                                      163840
+    /09.DAT                                       41984
+    /0A.DAT                                       37632
+    /0B.DAT                                       37248
+    /10.DAT                                      128128
+    /11.DAT                                      163840
+    /12.DAT                                       97792
+    /13.DAT                                       55424
+    /14.DAT                                      109184
+    /15.DAT                                      101376
+    /16.DAT                                      186368
+    /17.DAT                                      143744
+    /18.DAT                                      185216
+    /19.DAT                                      117888
+    /1A.DAT                                       38784
+    /1B.DAT                                       39040
+    /20.DAT                                       82432
+    /21.DAT                                       41984
+    /22.DAT                                       38144
+    /23.DAT                                       91904
+    /24.DAT                                      221696
+    /25.DAT                                      280320
+    /26.DAT                                      259584
+    /27.DAT                                      258944
+    /28.DAT                                      270080
+    /29.DAT                                       70528
+    /2A.DAT                                      193536
+    /2AA.DAT                                     212096
+    /2B.DAT                                      258944
+    /2BA.DAT                                     248832
+    ... and 216 more
+
+between TOSCHT.CVM and TOSCV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSCHT.CVM     0.0%
+  as a share of TOSCV.CVM      0.0%
+  bytes on TOSCHT.CVM          0 (0.0%) are also on the other
+  bytes on TOSCV.CVM           0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSCHT.CVM          486 files, 1632288 bytes
+  only on TOSCV.CVM           3 files, 317265920 bytes
+
+  only on TOSCHT.CVM:
+    /FC_B000.SKP                                   3968
+    /FC_B001.SKP                                   3072
+    /FC_B002.SKP                                   1664
+    /FC_B003.SKP                                   1216
+    /FC_B004.SKP                                   2496
+    /FC_B005.SKP                                   1472
+    /FC_B006.SKP                                   2432
+    /FC_B007.SKP                                   3072
+    /FC_B008.SKP                                   2048
+    /FC_B009.SKP                                   4096
+    /FC_B010.SKP                                   2816
+    /FC_B011.SKP                                   1472
+    /FC_B012.SKP                                   2560
+    /FC_B013.SKP                                   3328
+    /FC_B014.SKP                                   3072
+    /FC_B015.SKP                                   2176
+    /FC_B016.SKP                                   2560
+    /FC_B017.SKP                                   3776
+    /FC_B018.SKP                                   3712
+    /FC_B019.SKP                                   3520
+    /FC_B020.SKP                                   3264
+    /FC_B021.SKP                                   6080
+    /FC_B022.SKP                                    192
+    /FC_B023.SKP                                    192
+    /FC_B024.SKP                                    192
+    /FC_B025.SKP                                    192
+    /FC_B026.SKP                                    192
+    /FC_B027.SKP                                    192
+    /FC_B028.SKP                                   4224
+    /FC_B029.SKP                                    192
+    /FC_B030.SKP                                   4928
+    /FC_B031.SKP                                   4864
+    /FC_B032.SKP                                   3392
+    /FC_B033.SKP                                   6592
+    /FC_B034.SKP                                    192
+    /FC_C000.SKP                                   3392
+    /FC_C001.SKP                                   1408
+    /FC_C002.SKP                                   2624
+    /FC_C003.SKP                                   2368
+    /FC_C004.SKP                                   4480
+    ... and 446 more
+
+  only on TOSCV.CVM:
+    /CHT_COMMON.AFS                             7727104
+    /CHT_DISC_1.AFS                           189470720
+    /CHT_DISC_2.AFS                           120068096
+
+between TOSCHT.CVM and TOSEV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSCHT.CVM     0.0%
+  as a share of TOSEV.CVM      0.0%
+  bytes on TOSCHT.CVM          0 (0.0%) are also on the other
+  bytes on TOSEV.CVM           0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSCHT.CVM          486 files, 1632288 bytes
+  only on TOSEV.CVM           13 files, 651057152 bytes
+
+  only on TOSCHT.CVM:
+    /FC_B000.SKP                                   3968
+    /FC_B001.SKP                                   3072
+    /FC_B002.SKP                                   1664
+    /FC_B003.SKP                                   1216
+    /FC_B004.SKP                                   2496
+    /FC_B005.SKP                                   1472
+    /FC_B006.SKP                                   2432
+    /FC_B007.SKP                                   3072
+    /FC_B008.SKP                                   2048
+    /FC_B009.SKP                                   4096
+    /FC_B010.SKP                                   2816
+    /FC_B011.SKP                                   1472
+    /FC_B012.SKP                                   2560
+    /FC_B013.SKP                                   3328
+    /FC_B014.SKP                                   3072
+    /FC_B015.SKP                                   2176
+    /FC_B016.SKP                                   2560
+    /FC_B017.SKP                                   3776
+    /FC_B018.SKP                                   3712
+    /FC_B019.SKP                                   3520
+    /FC_B020.SKP                                   3264
+    /FC_B021.SKP                                   6080
+    /FC_B022.SKP                                    192
+    /FC_B023.SKP                                    192
+    /FC_B024.SKP                                    192
+    /FC_B025.SKP                                    192
+    /FC_B026.SKP                                    192
+    /FC_B027.SKP                                    192
+    /FC_B028.SKP                                   4224
+    /FC_B029.SKP                                    192
+    /FC_B030.SKP                                   4928
+    /FC_B031.SKP                                   4864
+    /FC_B032.SKP                                   3392
+    /FC_B033.SKP                                   6592
+    /FC_B034.SKP                                    192
+    /FC_C000.SKP                                   3392
+    /FC_C001.SKP                                   1408
+    /FC_C002.SKP                                   2624
+    /FC_C003.SKP                                   2368
+    /FC_C004.SKP                                   4480
+    ... and 446 more
+
+  only on TOSEV.CVM:
+    /SCE_001_009.AFS                           33269760
+    /SCE_011_020.AFS                           17149952
+    /SCE_021_030.AFS                           48359424
+    /SCE_031_040.AFS                           44972032
+    /SCE_041_050.AFS                           52830208
+    /SCE_051_060.AFS                           46231552
+    /SCE_061_070.AFS                           50249728
+    /SCE_071_083.AFS                           49668096
+    /SCE_084_090.AFS                           32086016
+    /SCE_091_100.AFS                           47554560
+    /SCE_101_110.AFS                           84774912
+    /SCE_111_120.AFS                           46987264
+    /SCE_121_132.AFS                           96923648
+
+between TOSCHT.CVM and TOSMAP.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSCHT.CVM     0.0%
+  as a share of TOSMAP.CVM     0.0%
+  bytes on TOSCHT.CVM          0 (0.0%) are also on the other
+  bytes on TOSMAP.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSCHT.CVM          486 files, 1632288 bytes
+  only on TOSMAP.CVM          497 files, 364540192 bytes
+
+  only on TOSCHT.CVM:
+    /FC_B000.SKP                                   3968
+    /FC_B001.SKP                                   3072
+    /FC_B002.SKP                                   1664
+    /FC_B003.SKP                                   1216
+    /FC_B004.SKP                                   2496
+    /FC_B005.SKP                                   1472
+    /FC_B006.SKP                                   2432
+    /FC_B007.SKP                                   3072
+    /FC_B008.SKP                                   2048
+    /FC_B009.SKP                                   4096
+    /FC_B010.SKP                                   2816
+    /FC_B011.SKP                                   1472
+    /FC_B012.SKP                                   2560
+    /FC_B013.SKP                                   3328
+    /FC_B014.SKP                                   3072
+    /FC_B015.SKP                                   2176
+    /FC_B016.SKP                                   2560
+    /FC_B017.SKP                                   3776
+    /FC_B018.SKP                                   3712
+    /FC_B019.SKP                                   3520
+    /FC_B020.SKP                                   3264
+    /FC_B021.SKP                                   6080
+    /FC_B022.SKP                                    192
+    /FC_B023.SKP                                    192
+    /FC_B024.SKP                                    192
+    /FC_B025.SKP                                    192
+    /FC_B026.SKP                                    192
+    /FC_B027.SKP                                    192
+    /FC_B028.SKP                                   4224
+    /FC_B029.SKP                                    192
+    /FC_B030.SKP                                   4928
+    /FC_B031.SKP                                   4864
+    /FC_B032.SKP                                   3392
+    /FC_B033.SKP                                   6592
+    /FC_B034.SKP                                    192
+    /FC_C000.SKP                                   3392
+    /FC_C001.SKP                                   1408
+    /FC_C002.SKP                                   2624
+    /FC_C003.SKP                                   2368
+    /FC_C004.SKP                                   4480
+    ... and 446 more
+
+  only on TOSMAP.CVM:
+    /AQU_D00.BIN                                 639927
+    /AQU_D01.BIN                                 975661
+    /AQU_D02.BIN                                1041390
+    /AQU_D03.BIN                                1024100
+    /AQU_D04.BIN                                 829761
+    /ART_I00B.BIN                                816281
+    /ART_I00_00.BIN                              843921
+    /ART_I00_01.BIN                              619524
+    /ART_I00_02.BIN                              847598
+    /ART_I00_03.BIN                              517113
+    /ART_I00_04.BIN                              589366
+    /ART_I00_05.BIN                              943264
+    /ART_I00_06.BIN                              434677
+    /ART_I00_07.BIN                              480581
+    /ART_I01_00.BIN                              977130
+    /ART_I01_01.BIN                              804184
+    /ART_I01_02.BIN                              995890
+    /ART_I01_03.BIN                             1064499
+    /ART_I02.BIN                                 876882
+    /ART_T00.BIN                                 703105
+    /ART_T01.BIN                                 575227
+    /ART_T02.BIN                                 386572
+    /ART_T03.BIN                                 415427
+    /ART_T04.BIN                                 795308
+    /ASK_I00.BIN                                1195434
+    /ASK_I01_00.BIN                              679008
+    /ASK_I01_01.BIN                              382454
+    /ASK_I01_02.BIN                              673832
+    /ASK_I01_03.BIN                              550713
+    /ASK_I02_00.BIN                              740874
+    /ASK_I02_01.BIN                              596969
+    /ASK_I02_02.BIN                              591801
+    /ASK_I02_03.BIN                              595328
+    /ASK_I03.BIN                                 840082
+    /ASK_I04.BIN                                 879241
+    /ASK_I05_00.BIN                              876377
+    /ASK_I05_01.BIN                              785245
+    /ASK_I06.BIN                                 967046
+    /ASK_I07_00.BIN                             1323443
+    /ASK_I07_01.BIN                              898642
+    ... and 457 more
+
+between TOSCHT.CVM and TOSBTL.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSCHT.CVM     0.0%
+  as a share of TOSBTL.CVM     0.0%
+  bytes on TOSCHT.CVM          0 (0.0%) are also on the other
+  bytes on TOSBTL.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSCHT.CVM          486 files, 1632288 bytes
+  only on TOSBTL.CVM          68 files, 256147686 bytes
+
+  only on TOSCHT.CVM:
+    /FC_B000.SKP                                   3968
+    /FC_B001.SKP                                   3072
+    /FC_B002.SKP                                   1664
+    /FC_B003.SKP                                   1216
+    /FC_B004.SKP                                   2496
+    /FC_B005.SKP                                   1472
+    /FC_B006.SKP                                   2432
+    /FC_B007.SKP                                   3072
+    /FC_B008.SKP                                   2048
+    /FC_B009.SKP                                   4096
+    /FC_B010.SKP                                   2816
+    /FC_B011.SKP                                   1472
+    /FC_B012.SKP                                   2560
+    /FC_B013.SKP                                   3328
+    /FC_B014.SKP                                   3072
+    /FC_B015.SKP                                   2176
+    /FC_B016.SKP                                   2560
+    /FC_B017.SKP                                   3776
+    /FC_B018.SKP                                   3712
+    /FC_B019.SKP                                   3520
+    /FC_B020.SKP                                   3264
+    /FC_B021.SKP                                   6080
+    /FC_B022.SKP                                    192
+    /FC_B023.SKP                                    192
+    /FC_B024.SKP                                    192
+    /FC_B025.SKP                                    192
+    /FC_B026.SKP                                    192
+    /FC_B027.SKP                                    192
+    /FC_B028.SKP                                   4224
+    /FC_B029.SKP                                    192
+    /FC_B030.SKP                                   4928
+    /FC_B031.SKP                                   4864
+    /FC_B032.SKP                                   3392
+    /FC_B033.SKP                                   6592
+    /FC_B034.SKP                                    192
+    /FC_C000.SKP                                   3392
+    /FC_C001.SKP                                   1408
+    /FC_C002.SKP                                   2624
+    /FC_C003.SKP                                   2368
+    /FC_C004.SKP                                   4480
+    ... and 446 more
+
+  only on TOSBTL.CVM:
+    /01.ABN                                      134096
+    /02.ABN                                      175056
+    /03.ABN                                      180112
+    /04.ABN                                      158992
+    /05.ABN                                      176912
+    /06.ABN                                      209552
+    /07.ABN                                      142672
+    /08.ABN                                      161552
+    /09.ABN                                      142736
+    /BTLBG.DAT                                 10860544
+    /BTLCOLLET.CAB                               320651
+    /BTLCOLLET001.CAB                            299495
+    /BTLCOLLET002.CAB                            298179
+    /BTLCOLLET003.CAB                            303275
+    /BTLCOLLET005.CAB                            290707
+    /BTLCOLLET009.CAB                            301299
+    /BTLENEMY.DAT                              47814656
+    /BTLGENIUS.CAB                               286689
+    /BTLGENIUS001.CAB                            286665
+    /BTLGENIUS002.CAB                            274905
+    /BTLGENIUS003.CAB                            282271
+    /BTLGENIUS009.CAB                            283625
+    /BTLKRATOS.CAB                               340693
+    /BTLKRATOS001.CAB                            339097
+    /BTLKRATOS002.CAB                            340063
+    /BTLKRATOS003.CAB                            340063
+    /BTLKRATOS009.CAB                            325443
+    /BTLLLOYD.CAB                                351707
+    /BTLLLOYD001.CAB                             348269
+    /BTLLLOYD002.CAB                             355339
+    /BTLLLOYD003.CAB                             336923
+    /BTLLLOYD009.CAB                             349037
+    /BTLMAGIC.DAT                              23502848
+    /BTLMBENM.DAT                              69332992
+    /BTLPRESEA.CAB                               390525
+    /BTLPRESEA001.CAB                            392951
+    /BTLPRESEA002.CAB                            386977
+    /BTLPRESEA003.CAB                            390185
+    /BTLPRESEA004.CAB                            369269
+    /BTLPRESEA009.CAB                            384649
+    ... and 28 more
+
+between TOSCHT.CVM and TOSSND.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSCHT.CVM     0.0%
+  as a share of TOSSND.CVM     0.0%
+  bytes on TOSCHT.CVM          0 (0.0%) are also on the other
+  bytes on TOSSND.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSCHT.CVM          486 files, 1632288 bytes
+  only on TOSSND.CVM          177 files, 558227840 bytes
+
+  only on TOSCHT.CVM:
+    /FC_B000.SKP                                   3968
+    /FC_B001.SKP                                   3072
+    /FC_B002.SKP                                   1664
+    /FC_B003.SKP                                   1216
+    /FC_B004.SKP                                   2496
+    /FC_B005.SKP                                   1472
+    /FC_B006.SKP                                   2432
+    /FC_B007.SKP                                   3072
+    /FC_B008.SKP                                   2048
+    /FC_B009.SKP                                   4096
+    /FC_B010.SKP                                   2816
+    /FC_B011.SKP                                   1472
+    /FC_B012.SKP                                   2560
+    /FC_B013.SKP                                   3328
+    /FC_B014.SKP                                   3072
+    /FC_B015.SKP                                   2176
+    /FC_B016.SKP                                   2560
+    /FC_B017.SKP                                   3776
+    /FC_B018.SKP                                   3712
+    /FC_B019.SKP                                   3520
+    /FC_B020.SKP                                   3264
+    /FC_B021.SKP                                   6080
+    /FC_B022.SKP                                    192
+    /FC_B023.SKP                                    192
+    /FC_B024.SKP                                    192
+    /FC_B025.SKP                                    192
+    /FC_B026.SKP                                    192
+    /FC_B027.SKP                                    192
+    /FC_B028.SKP                                   4224
+    /FC_B029.SKP                                    192
+    /FC_B030.SKP                                   4928
+    /FC_B031.SKP                                   4864
+    /FC_B032.SKP                                   3392
+    /FC_B033.SKP                                   6592
+    /FC_B034.SKP                                    192
+    /FC_C000.SKP                                   3392
+    /FC_C001.SKP                                   1408
+    /FC_C002.SKP                                   2624
+    /FC_C003.SKP                                   2368
+    /FC_C004.SKP                                   4480
+    ... and 446 more
+
+  only on TOSSND.CVM:
+    /ALLPHD.PAK                                  126272
+    /BGM_B000.ADX                               4679680
+    /BGM_B001.ADX                               5484544
+    /BGM_B002.ADX                               4020224
+    /BGM_B003.ADX                               5859328
+    /BGM_B004.ADX                               5302272
+    /BGM_B005.ADX                               5255168
+    /BGM_B006.ADX                               4470784
+    /BGM_B007.ADX                               4085760
+    /BGM_B008.ADX                               6103040
+    /BGM_B009.ADX                               5748736
+    /BGM_B010.ADX                               2013184
+    /BGM_B011.ADX                               1845248
+    /BGM_B012.ADX                               3917824
+    /BGM_B013.ADX                               4059136
+    /BGM_C000.ADX                               2994176
+    /BGM_C001.ADX                               2437120
+    /BGM_C003.ADX                               2082816
+    /BGM_C004.ADX                               4378624
+    /BGM_C006.ADX                               1812480
+    /BGM_C007.ADX                               4937728
+    /BGM_C008.ADX                               3514368
+    /BGM_C009.ADX                               2701312
+    /BGM_C011.ADX                               3172352
+    /BGM_C013.ADX                               2435072
+    /BGM_C014.ADX                               4085760
+    /BGM_C015.ADX                               4444160
+    /BGM_C017.ADX                               4554752
+    /BGM_C019.ADX                               2932736
+    /BGM_C021.ADX                               4886528
+    /BGM_C022.ADX                               3983360
+    /BGM_C024.ADX                               4200448
+    /BGM_C025.ADX                               3143680
+    /BGM_C026.ADX                               5136384
+    /BGM_C027.ADX                               1976320
+    /BGM_C028.ADX                               2177024
+    /BGM_D000.ADX                               4448256
+    /BGM_D001.ADX                               5169152
+    /BGM_D002.ADX                               3411968
+    /BGM_D003.ADX                               4272128
+    ... and 137 more
+
+between TOSCHT.CVM and TOSMOV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSCHT.CVM     0.0%
+  as a share of TOSMOV.CVM     0.0%
+  bytes on TOSCHT.CVM          0 (0.0%) are also on the other
+  bytes on TOSMOV.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSCHT.CVM          486 files, 1632288 bytes
+  only on TOSMOV.CVM          13 files, 1173915648 bytes
+
+  only on TOSCHT.CVM:
+    /FC_B000.SKP                                   3968
+    /FC_B001.SKP                                   3072
+    /FC_B002.SKP                                   1664
+    /FC_B003.SKP                                   1216
+    /FC_B004.SKP                                   2496
+    /FC_B005.SKP                                   1472
+    /FC_B006.SKP                                   2432
+    /FC_B007.SKP                                   3072
+    /FC_B008.SKP                                   2048
+    /FC_B009.SKP                                   4096
+    /FC_B010.SKP                                   2816
+    /FC_B011.SKP                                   1472
+    /FC_B012.SKP                                   2560
+    /FC_B013.SKP                                   3328
+    /FC_B014.SKP                                   3072
+    /FC_B015.SKP                                   2176
+    /FC_B016.SKP                                   2560
+    /FC_B017.SKP                                   3776
+    /FC_B018.SKP                                   3712
+    /FC_B019.SKP                                   3520
+    /FC_B020.SKP                                   3264
+    /FC_B021.SKP                                   6080
+    /FC_B022.SKP                                    192
+    /FC_B023.SKP                                    192
+    /FC_B024.SKP                                    192
+    /FC_B025.SKP                                    192
+    /FC_B026.SKP                                    192
+    /FC_B027.SKP                                    192
+    /FC_B028.SKP                                   4224
+    /FC_B029.SKP                                    192
+    /FC_B030.SKP                                   4928
+    /FC_B031.SKP                                   4864
+    /FC_B032.SKP                                   3392
+    /FC_B033.SKP                                   6592
+    /FC_B034.SKP                                    192
+    /FC_C000.SKP                                   3392
+    /FC_C001.SKP                                   1408
+    /FC_C002.SKP                                   2624
+    /FC_C003.SKP                                   2368
+    /FC_C004.SKP                                   4480
+    ... and 446 more
+
+  only on TOSMOV.CVM:
+    /AS01.SFD                                 106610688
+    /AS02.SFD                                  53145600
+    /AS03.SFD                                 284207104
+    /AS_ADD00.SFD                              21686272
+    /AS_ADD01.SFD                              20801536
+    /END.SFD                                  332713984
+    /OP.SFD                                   123512832
+    /S01.SFD                                   55808000
+    /S03.SFD                                   24363008
+    /S07.SFD                                   21721088
+    /S08.SFD                                   40601600
+    /S09.SFD                                   49420288
+    /S10.SFD                                   39323648
+
+between TOSFIELD.CVM and TOSCV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSFIELD.CVM   0.0%
+  as a share of TOSCV.CVM      0.0%
+  bytes on TOSFIELD.CVM        0 (0.0%) are also on the other
+  bytes on TOSCV.CVM           0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSFIELD.CVM        256 files, 53965314 bytes
+  only on TOSCV.CVM           3 files, 317265920 bytes
+
+  only on TOSFIELD.CVM:
+    /00.DAT                                      129792
+    /01.DAT                                      110592
+    /02.DAT                                       75264
+    /03.DAT                                      280576
+    /04.DAT                                       40960
+    /05.DAT                                       67712
+    /06.DAT                                      202624
+    /06A.DAT                                     190080
+    /07.DAT                                      212864
+    /07A.DAT                                     282496
+    /08.DAT                                      163840
+    /09.DAT                                       41984
+    /0A.DAT                                       37632
+    /0B.DAT                                       37248
+    /10.DAT                                      128128
+    /11.DAT                                      163840
+    /12.DAT                                       97792
+    /13.DAT                                       55424
+    /14.DAT                                      109184
+    /15.DAT                                      101376
+    /16.DAT                                      186368
+    /17.DAT                                      143744
+    /18.DAT                                      185216
+    /19.DAT                                      117888
+    /1A.DAT                                       38784
+    /1B.DAT                                       39040
+    /20.DAT                                       82432
+    /21.DAT                                       41984
+    /22.DAT                                       38144
+    /23.DAT                                       91904
+    /24.DAT                                      221696
+    /25.DAT                                      280320
+    /26.DAT                                      259584
+    /27.DAT                                      258944
+    /28.DAT                                      270080
+    /29.DAT                                       70528
+    /2A.DAT                                      193536
+    /2AA.DAT                                     212096
+    /2B.DAT                                      258944
+    /2BA.DAT                                     248832
+    ... and 216 more
+
+  only on TOSCV.CVM:
+    /CHT_COMMON.AFS                             7727104
+    /CHT_DISC_1.AFS                           189470720
+    /CHT_DISC_2.AFS                           120068096
+
+between TOSFIELD.CVM and TOSEV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSFIELD.CVM   0.0%
+  as a share of TOSEV.CVM      0.0%
+  bytes on TOSFIELD.CVM        0 (0.0%) are also on the other
+  bytes on TOSEV.CVM           0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSFIELD.CVM        256 files, 53965314 bytes
+  only on TOSEV.CVM           13 files, 651057152 bytes
+
+  only on TOSFIELD.CVM:
+    /00.DAT                                      129792
+    /01.DAT                                      110592
+    /02.DAT                                       75264
+    /03.DAT                                      280576
+    /04.DAT                                       40960
+    /05.DAT                                       67712
+    /06.DAT                                      202624
+    /06A.DAT                                     190080
+    /07.DAT                                      212864
+    /07A.DAT                                     282496
+    /08.DAT                                      163840
+    /09.DAT                                       41984
+    /0A.DAT                                       37632
+    /0B.DAT                                       37248
+    /10.DAT                                      128128
+    /11.DAT                                      163840
+    /12.DAT                                       97792
+    /13.DAT                                       55424
+    /14.DAT                                      109184
+    /15.DAT                                      101376
+    /16.DAT                                      186368
+    /17.DAT                                      143744
+    /18.DAT                                      185216
+    /19.DAT                                      117888
+    /1A.DAT                                       38784
+    /1B.DAT                                       39040
+    /20.DAT                                       82432
+    /21.DAT                                       41984
+    /22.DAT                                       38144
+    /23.DAT                                       91904
+    /24.DAT                                      221696
+    /25.DAT                                      280320
+    /26.DAT                                      259584
+    /27.DAT                                      258944
+    /28.DAT                                      270080
+    /29.DAT                                       70528
+    /2A.DAT                                      193536
+    /2AA.DAT                                     212096
+    /2B.DAT                                      258944
+    /2BA.DAT                                     248832
+    ... and 216 more
+
+  only on TOSEV.CVM:
+    /SCE_001_009.AFS                           33269760
+    /SCE_011_020.AFS                           17149952
+    /SCE_021_030.AFS                           48359424
+    /SCE_031_040.AFS                           44972032
+    /SCE_041_050.AFS                           52830208
+    /SCE_051_060.AFS                           46231552
+    /SCE_061_070.AFS                           50249728
+    /SCE_071_083.AFS                           49668096
+    /SCE_084_090.AFS                           32086016
+    /SCE_091_100.AFS                           47554560
+    /SCE_101_110.AFS                           84774912
+    /SCE_111_120.AFS                           46987264
+    /SCE_121_132.AFS                           96923648
+
+between TOSFIELD.CVM and TOSMAP.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSFIELD.CVM   0.0%
+  as a share of TOSMAP.CVM     0.0%
+  bytes on TOSFIELD.CVM        0 (0.0%) are also on the other
+  bytes on TOSMAP.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSFIELD.CVM        256 files, 53965314 bytes
+  only on TOSMAP.CVM          497 files, 364540192 bytes
+
+  only on TOSFIELD.CVM:
+    /00.DAT                                      129792
+    /01.DAT                                      110592
+    /02.DAT                                       75264
+    /03.DAT                                      280576
+    /04.DAT                                       40960
+    /05.DAT                                       67712
+    /06.DAT                                      202624
+    /06A.DAT                                     190080
+    /07.DAT                                      212864
+    /07A.DAT                                     282496
+    /08.DAT                                      163840
+    /09.DAT                                       41984
+    /0A.DAT                                       37632
+    /0B.DAT                                       37248
+    /10.DAT                                      128128
+    /11.DAT                                      163840
+    /12.DAT                                       97792
+    /13.DAT                                       55424
+    /14.DAT                                      109184
+    /15.DAT                                      101376
+    /16.DAT                                      186368
+    /17.DAT                                      143744
+    /18.DAT                                      185216
+    /19.DAT                                      117888
+    /1A.DAT                                       38784
+    /1B.DAT                                       39040
+    /20.DAT                                       82432
+    /21.DAT                                       41984
+    /22.DAT                                       38144
+    /23.DAT                                       91904
+    /24.DAT                                      221696
+    /25.DAT                                      280320
+    /26.DAT                                      259584
+    /27.DAT                                      258944
+    /28.DAT                                      270080
+    /29.DAT                                       70528
+    /2A.DAT                                      193536
+    /2AA.DAT                                     212096
+    /2B.DAT                                      258944
+    /2BA.DAT                                     248832
+    ... and 216 more
+
+  only on TOSMAP.CVM:
+    /AQU_D00.BIN                                 639927
+    /AQU_D01.BIN                                 975661
+    /AQU_D02.BIN                                1041390
+    /AQU_D03.BIN                                1024100
+    /AQU_D04.BIN                                 829761
+    /ART_I00B.BIN                                816281
+    /ART_I00_00.BIN                              843921
+    /ART_I00_01.BIN                              619524
+    /ART_I00_02.BIN                              847598
+    /ART_I00_03.BIN                              517113
+    /ART_I00_04.BIN                              589366
+    /ART_I00_05.BIN                              943264
+    /ART_I00_06.BIN                              434677
+    /ART_I00_07.BIN                              480581
+    /ART_I01_00.BIN                              977130
+    /ART_I01_01.BIN                              804184
+    /ART_I01_02.BIN                              995890
+    /ART_I01_03.BIN                             1064499
+    /ART_I02.BIN                                 876882
+    /ART_T00.BIN                                 703105
+    /ART_T01.BIN                                 575227
+    /ART_T02.BIN                                 386572
+    /ART_T03.BIN                                 415427
+    /ART_T04.BIN                                 795308
+    /ASK_I00.BIN                                1195434
+    /ASK_I01_00.BIN                              679008
+    /ASK_I01_01.BIN                              382454
+    /ASK_I01_02.BIN                              673832
+    /ASK_I01_03.BIN                              550713
+    /ASK_I02_00.BIN                              740874
+    /ASK_I02_01.BIN                              596969
+    /ASK_I02_02.BIN                              591801
+    /ASK_I02_03.BIN                              595328
+    /ASK_I03.BIN                                 840082
+    /ASK_I04.BIN                                 879241
+    /ASK_I05_00.BIN                              876377
+    /ASK_I05_01.BIN                              785245
+    /ASK_I06.BIN                                 967046
+    /ASK_I07_00.BIN                             1323443
+    /ASK_I07_01.BIN                              898642
+    ... and 457 more
+
+between TOSFIELD.CVM and TOSBTL.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSFIELD.CVM   0.0%
+  as a share of TOSBTL.CVM     0.0%
+  bytes on TOSFIELD.CVM        0 (0.0%) are also on the other
+  bytes on TOSBTL.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSFIELD.CVM        256 files, 53965314 bytes
+  only on TOSBTL.CVM          68 files, 256147686 bytes
+
+  only on TOSFIELD.CVM:
+    /00.DAT                                      129792
+    /01.DAT                                      110592
+    /02.DAT                                       75264
+    /03.DAT                                      280576
+    /04.DAT                                       40960
+    /05.DAT                                       67712
+    /06.DAT                                      202624
+    /06A.DAT                                     190080
+    /07.DAT                                      212864
+    /07A.DAT                                     282496
+    /08.DAT                                      163840
+    /09.DAT                                       41984
+    /0A.DAT                                       37632
+    /0B.DAT                                       37248
+    /10.DAT                                      128128
+    /11.DAT                                      163840
+    /12.DAT                                       97792
+    /13.DAT                                       55424
+    /14.DAT                                      109184
+    /15.DAT                                      101376
+    /16.DAT                                      186368
+    /17.DAT                                      143744
+    /18.DAT                                      185216
+    /19.DAT                                      117888
+    /1A.DAT                                       38784
+    /1B.DAT                                       39040
+    /20.DAT                                       82432
+    /21.DAT                                       41984
+    /22.DAT                                       38144
+    /23.DAT                                       91904
+    /24.DAT                                      221696
+    /25.DAT                                      280320
+    /26.DAT                                      259584
+    /27.DAT                                      258944
+    /28.DAT                                      270080
+    /29.DAT                                       70528
+    /2A.DAT                                      193536
+    /2AA.DAT                                     212096
+    /2B.DAT                                      258944
+    /2BA.DAT                                     248832
+    ... and 216 more
+
+  only on TOSBTL.CVM:
+    /01.ABN                                      134096
+    /02.ABN                                      175056
+    /03.ABN                                      180112
+    /04.ABN                                      158992
+    /05.ABN                                      176912
+    /06.ABN                                      209552
+    /07.ABN                                      142672
+    /08.ABN                                      161552
+    /09.ABN                                      142736
+    /BTLBG.DAT                                 10860544
+    /BTLCOLLET.CAB                               320651
+    /BTLCOLLET001.CAB                            299495
+    /BTLCOLLET002.CAB                            298179
+    /BTLCOLLET003.CAB                            303275
+    /BTLCOLLET005.CAB                            290707
+    /BTLCOLLET009.CAB                            301299
+    /BTLENEMY.DAT                              47814656
+    /BTLGENIUS.CAB                               286689
+    /BTLGENIUS001.CAB                            286665
+    /BTLGENIUS002.CAB                            274905
+    /BTLGENIUS003.CAB                            282271
+    /BTLGENIUS009.CAB                            283625
+    /BTLKRATOS.CAB                               340693
+    /BTLKRATOS001.CAB                            339097
+    /BTLKRATOS002.CAB                            340063
+    /BTLKRATOS003.CAB                            340063
+    /BTLKRATOS009.CAB                            325443
+    /BTLLLOYD.CAB                                351707
+    /BTLLLOYD001.CAB                             348269
+    /BTLLLOYD002.CAB                             355339
+    /BTLLLOYD003.CAB                             336923
+    /BTLLLOYD009.CAB                             349037
+    /BTLMAGIC.DAT                              23502848
+    /BTLMBENM.DAT                              69332992
+    /BTLPRESEA.CAB                               390525
+    /BTLPRESEA001.CAB                            392951
+    /BTLPRESEA002.CAB                            386977
+    /BTLPRESEA003.CAB                            390185
+    /BTLPRESEA004.CAB                            369269
+    /BTLPRESEA009.CAB                            384649
+    ... and 28 more
+
+between TOSFIELD.CVM and TOSSND.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSFIELD.CVM   0.0%
+  as a share of TOSSND.CVM     0.0%
+  bytes on TOSFIELD.CVM        0 (0.0%) are also on the other
+  bytes on TOSSND.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSFIELD.CVM        256 files, 53965314 bytes
+  only on TOSSND.CVM          177 files, 558227840 bytes
+
+  only on TOSFIELD.CVM:
+    /00.DAT                                      129792
+    /01.DAT                                      110592
+    /02.DAT                                       75264
+    /03.DAT                                      280576
+    /04.DAT                                       40960
+    /05.DAT                                       67712
+    /06.DAT                                      202624
+    /06A.DAT                                     190080
+    /07.DAT                                      212864
+    /07A.DAT                                     282496
+    /08.DAT                                      163840
+    /09.DAT                                       41984
+    /0A.DAT                                       37632
+    /0B.DAT                                       37248
+    /10.DAT                                      128128
+    /11.DAT                                      163840
+    /12.DAT                                       97792
+    /13.DAT                                       55424
+    /14.DAT                                      109184
+    /15.DAT                                      101376
+    /16.DAT                                      186368
+    /17.DAT                                      143744
+    /18.DAT                                      185216
+    /19.DAT                                      117888
+    /1A.DAT                                       38784
+    /1B.DAT                                       39040
+    /20.DAT                                       82432
+    /21.DAT                                       41984
+    /22.DAT                                       38144
+    /23.DAT                                       91904
+    /24.DAT                                      221696
+    /25.DAT                                      280320
+    /26.DAT                                      259584
+    /27.DAT                                      258944
+    /28.DAT                                      270080
+    /29.DAT                                       70528
+    /2A.DAT                                      193536
+    /2AA.DAT                                     212096
+    /2B.DAT                                      258944
+    /2BA.DAT                                     248832
+    ... and 216 more
+
+  only on TOSSND.CVM:
+    /ALLPHD.PAK                                  126272
+    /BGM_B000.ADX                               4679680
+    /BGM_B001.ADX                               5484544
+    /BGM_B002.ADX                               4020224
+    /BGM_B003.ADX                               5859328
+    /BGM_B004.ADX                               5302272
+    /BGM_B005.ADX                               5255168
+    /BGM_B006.ADX                               4470784
+    /BGM_B007.ADX                               4085760
+    /BGM_B008.ADX                               6103040
+    /BGM_B009.ADX                               5748736
+    /BGM_B010.ADX                               2013184
+    /BGM_B011.ADX                               1845248
+    /BGM_B012.ADX                               3917824
+    /BGM_B013.ADX                               4059136
+    /BGM_C000.ADX                               2994176
+    /BGM_C001.ADX                               2437120
+    /BGM_C003.ADX                               2082816
+    /BGM_C004.ADX                               4378624
+    /BGM_C006.ADX                               1812480
+    /BGM_C007.ADX                               4937728
+    /BGM_C008.ADX                               3514368
+    /BGM_C009.ADX                               2701312
+    /BGM_C011.ADX                               3172352
+    /BGM_C013.ADX                               2435072
+    /BGM_C014.ADX                               4085760
+    /BGM_C015.ADX                               4444160
+    /BGM_C017.ADX                               4554752
+    /BGM_C019.ADX                               2932736
+    /BGM_C021.ADX                               4886528
+    /BGM_C022.ADX                               3983360
+    /BGM_C024.ADX                               4200448
+    /BGM_C025.ADX                               3143680
+    /BGM_C026.ADX                               5136384
+    /BGM_C027.ADX                               1976320
+    /BGM_C028.ADX                               2177024
+    /BGM_D000.ADX                               4448256
+    /BGM_D001.ADX                               5169152
+    /BGM_D002.ADX                               3411968
+    /BGM_D003.ADX                               4272128
+    ... and 137 more
+
+between TOSFIELD.CVM and TOSMOV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSFIELD.CVM   0.0%
+  as a share of TOSMOV.CVM     0.0%
+  bytes on TOSFIELD.CVM        0 (0.0%) are also on the other
+  bytes on TOSMOV.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSFIELD.CVM        256 files, 53965314 bytes
+  only on TOSMOV.CVM          13 files, 1173915648 bytes
+
+  only on TOSFIELD.CVM:
+    /00.DAT                                      129792
+    /01.DAT                                      110592
+    /02.DAT                                       75264
+    /03.DAT                                      280576
+    /04.DAT                                       40960
+    /05.DAT                                       67712
+    /06.DAT                                      202624
+    /06A.DAT                                     190080
+    /07.DAT                                      212864
+    /07A.DAT                                     282496
+    /08.DAT                                      163840
+    /09.DAT                                       41984
+    /0A.DAT                                       37632
+    /0B.DAT                                       37248
+    /10.DAT                                      128128
+    /11.DAT                                      163840
+    /12.DAT                                       97792
+    /13.DAT                                       55424
+    /14.DAT                                      109184
+    /15.DAT                                      101376
+    /16.DAT                                      186368
+    /17.DAT                                      143744
+    /18.DAT                                      185216
+    /19.DAT                                      117888
+    /1A.DAT                                       38784
+    /1B.DAT                                       39040
+    /20.DAT                                       82432
+    /21.DAT                                       41984
+    /22.DAT                                       38144
+    /23.DAT                                       91904
+    /24.DAT                                      221696
+    /25.DAT                                      280320
+    /26.DAT                                      259584
+    /27.DAT                                      258944
+    /28.DAT                                      270080
+    /29.DAT                                       70528
+    /2A.DAT                                      193536
+    /2AA.DAT                                     212096
+    /2B.DAT                                      258944
+    /2BA.DAT                                     248832
+    ... and 216 more
+
+  only on TOSMOV.CVM:
+    /AS01.SFD                                 106610688
+    /AS02.SFD                                  53145600
+    /AS03.SFD                                 284207104
+    /AS_ADD00.SFD                              21686272
+    /AS_ADD01.SFD                              20801536
+    /END.SFD                                  332713984
+    /OP.SFD                                   123512832
+    /S01.SFD                                   55808000
+    /S03.SFD                                   24363008
+    /S07.SFD                                   21721088
+    /S08.SFD                                   40601600
+    /S09.SFD                                   49420288
+    /S10.SFD                                   39323648
+
+between TOSCV.CVM and TOSEV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSCV.CVM      0.0%
+  as a share of TOSEV.CVM      0.0%
+  bytes on TOSCV.CVM           0 (0.0%) are also on the other
+  bytes on TOSEV.CVM           0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSCV.CVM           3 files, 317265920 bytes
+  only on TOSEV.CVM           13 files, 651057152 bytes
+
+  only on TOSCV.CVM:
+    /CHT_COMMON.AFS                             7727104
+    /CHT_DISC_1.AFS                           189470720
+    /CHT_DISC_2.AFS                           120068096
+
+  only on TOSEV.CVM:
+    /SCE_001_009.AFS                           33269760
+    /SCE_011_020.AFS                           17149952
+    /SCE_021_030.AFS                           48359424
+    /SCE_031_040.AFS                           44972032
+    /SCE_041_050.AFS                           52830208
+    /SCE_051_060.AFS                           46231552
+    /SCE_061_070.AFS                           50249728
+    /SCE_071_083.AFS                           49668096
+    /SCE_084_090.AFS                           32086016
+    /SCE_091_100.AFS                           47554560
+    /SCE_101_110.AFS                           84774912
+    /SCE_111_120.AFS                           46987264
+    /SCE_121_132.AFS                           96923648
+
+between TOSCV.CVM and TOSMAP.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSCV.CVM      0.0%
+  as a share of TOSMAP.CVM     0.0%
+  bytes on TOSCV.CVM           0 (0.0%) are also on the other
+  bytes on TOSMAP.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSCV.CVM           3 files, 317265920 bytes
+  only on TOSMAP.CVM          497 files, 364540192 bytes
+
+  only on TOSCV.CVM:
+    /CHT_COMMON.AFS                             7727104
+    /CHT_DISC_1.AFS                           189470720
+    /CHT_DISC_2.AFS                           120068096
+
+  only on TOSMAP.CVM:
+    /AQU_D00.BIN                                 639927
+    /AQU_D01.BIN                                 975661
+    /AQU_D02.BIN                                1041390
+    /AQU_D03.BIN                                1024100
+    /AQU_D04.BIN                                 829761
+    /ART_I00B.BIN                                816281
+    /ART_I00_00.BIN                              843921
+    /ART_I00_01.BIN                              619524
+    /ART_I00_02.BIN                              847598
+    /ART_I00_03.BIN                              517113
+    /ART_I00_04.BIN                              589366
+    /ART_I00_05.BIN                              943264
+    /ART_I00_06.BIN                              434677
+    /ART_I00_07.BIN                              480581
+    /ART_I01_00.BIN                              977130
+    /ART_I01_01.BIN                              804184
+    /ART_I01_02.BIN                              995890
+    /ART_I01_03.BIN                             1064499
+    /ART_I02.BIN                                 876882
+    /ART_T00.BIN                                 703105
+    /ART_T01.BIN                                 575227
+    /ART_T02.BIN                                 386572
+    /ART_T03.BIN                                 415427
+    /ART_T04.BIN                                 795308
+    /ASK_I00.BIN                                1195434
+    /ASK_I01_00.BIN                              679008
+    /ASK_I01_01.BIN                              382454
+    /ASK_I01_02.BIN                              673832
+    /ASK_I01_03.BIN                              550713
+    /ASK_I02_00.BIN                              740874
+    /ASK_I02_01.BIN                              596969
+    /ASK_I02_02.BIN                              591801
+    /ASK_I02_03.BIN                              595328
+    /ASK_I03.BIN                                 840082
+    /ASK_I04.BIN                                 879241
+    /ASK_I05_00.BIN                              876377
+    /ASK_I05_01.BIN                              785245
+    /ASK_I06.BIN                                 967046
+    /ASK_I07_00.BIN                             1323443
+    /ASK_I07_01.BIN                              898642
+    ... and 457 more
+
+between TOSCV.CVM and TOSBTL.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSCV.CVM      0.0%
+  as a share of TOSBTL.CVM     0.0%
+  bytes on TOSCV.CVM           0 (0.0%) are also on the other
+  bytes on TOSBTL.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSCV.CVM           3 files, 317265920 bytes
+  only on TOSBTL.CVM          68 files, 256147686 bytes
+
+  only on TOSCV.CVM:
+    /CHT_COMMON.AFS                             7727104
+    /CHT_DISC_1.AFS                           189470720
+    /CHT_DISC_2.AFS                           120068096
+
+  only on TOSBTL.CVM:
+    /01.ABN                                      134096
+    /02.ABN                                      175056
+    /03.ABN                                      180112
+    /04.ABN                                      158992
+    /05.ABN                                      176912
+    /06.ABN                                      209552
+    /07.ABN                                      142672
+    /08.ABN                                      161552
+    /09.ABN                                      142736
+    /BTLBG.DAT                                 10860544
+    /BTLCOLLET.CAB                               320651
+    /BTLCOLLET001.CAB                            299495
+    /BTLCOLLET002.CAB                            298179
+    /BTLCOLLET003.CAB                            303275
+    /BTLCOLLET005.CAB                            290707
+    /BTLCOLLET009.CAB                            301299
+    /BTLENEMY.DAT                              47814656
+    /BTLGENIUS.CAB                               286689
+    /BTLGENIUS001.CAB                            286665
+    /BTLGENIUS002.CAB                            274905
+    /BTLGENIUS003.CAB                            282271
+    /BTLGENIUS009.CAB                            283625
+    /BTLKRATOS.CAB                               340693
+    /BTLKRATOS001.CAB                            339097
+    /BTLKRATOS002.CAB                            340063
+    /BTLKRATOS003.CAB                            340063
+    /BTLKRATOS009.CAB                            325443
+    /BTLLLOYD.CAB                                351707
+    /BTLLLOYD001.CAB                             348269
+    /BTLLLOYD002.CAB                             355339
+    /BTLLLOYD003.CAB                             336923
+    /BTLLLOYD009.CAB                             349037
+    /BTLMAGIC.DAT                              23502848
+    /BTLMBENM.DAT                              69332992
+    /BTLPRESEA.CAB                               390525
+    /BTLPRESEA001.CAB                            392951
+    /BTLPRESEA002.CAB                            386977
+    /BTLPRESEA003.CAB                            390185
+    /BTLPRESEA004.CAB                            369269
+    /BTLPRESEA009.CAB                            384649
+    ... and 28 more
+
+between TOSCV.CVM and TOSSND.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSCV.CVM      0.0%
+  as a share of TOSSND.CVM     0.0%
+  bytes on TOSCV.CVM           0 (0.0%) are also on the other
+  bytes on TOSSND.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSCV.CVM           3 files, 317265920 bytes
+  only on TOSSND.CVM          177 files, 558227840 bytes
+
+  only on TOSCV.CVM:
+    /CHT_COMMON.AFS                             7727104
+    /CHT_DISC_1.AFS                           189470720
+    /CHT_DISC_2.AFS                           120068096
+
+  only on TOSSND.CVM:
+    /ALLPHD.PAK                                  126272
+    /BGM_B000.ADX                               4679680
+    /BGM_B001.ADX                               5484544
+    /BGM_B002.ADX                               4020224
+    /BGM_B003.ADX                               5859328
+    /BGM_B004.ADX                               5302272
+    /BGM_B005.ADX                               5255168
+    /BGM_B006.ADX                               4470784
+    /BGM_B007.ADX                               4085760
+    /BGM_B008.ADX                               6103040
+    /BGM_B009.ADX                               5748736
+    /BGM_B010.ADX                               2013184
+    /BGM_B011.ADX                               1845248
+    /BGM_B012.ADX                               3917824
+    /BGM_B013.ADX                               4059136
+    /BGM_C000.ADX                               2994176
+    /BGM_C001.ADX                               2437120
+    /BGM_C003.ADX                               2082816
+    /BGM_C004.ADX                               4378624
+    /BGM_C006.ADX                               1812480
+    /BGM_C007.ADX                               4937728
+    /BGM_C008.ADX                               3514368
+    /BGM_C009.ADX                               2701312
+    /BGM_C011.ADX                               3172352
+    /BGM_C013.ADX                               2435072
+    /BGM_C014.ADX                               4085760
+    /BGM_C015.ADX                               4444160
+    /BGM_C017.ADX                               4554752
+    /BGM_C019.ADX                               2932736
+    /BGM_C021.ADX                               4886528
+    /BGM_C022.ADX                               3983360
+    /BGM_C024.ADX                               4200448
+    /BGM_C025.ADX                               3143680
+    /BGM_C026.ADX                               5136384
+    /BGM_C027.ADX                               1976320
+    /BGM_C028.ADX                               2177024
+    /BGM_D000.ADX                               4448256
+    /BGM_D001.ADX                               5169152
+    /BGM_D002.ADX                               3411968
+    /BGM_D003.ADX                               4272128
+    ... and 137 more
+
+between TOSCV.CVM and TOSMOV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSCV.CVM      0.0%
+  as a share of TOSMOV.CVM     0.0%
+  bytes on TOSCV.CVM           0 (0.0%) are also on the other
+  bytes on TOSMOV.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSCV.CVM           3 files, 317265920 bytes
+  only on TOSMOV.CVM          13 files, 1173915648 bytes
+
+  only on TOSCV.CVM:
+    /CHT_COMMON.AFS                             7727104
+    /CHT_DISC_1.AFS                           189470720
+    /CHT_DISC_2.AFS                           120068096
+
+  only on TOSMOV.CVM:
+    /AS01.SFD                                 106610688
+    /AS02.SFD                                  53145600
+    /AS03.SFD                                 284207104
+    /AS_ADD00.SFD                              21686272
+    /AS_ADD01.SFD                              20801536
+    /END.SFD                                  332713984
+    /OP.SFD                                   123512832
+    /S01.SFD                                   55808000
+    /S03.SFD                                   24363008
+    /S07.SFD                                   21721088
+    /S08.SFD                                   40601600
+    /S09.SFD                                   49420288
+    /S10.SFD                                   39323648
+
+between TOSEV.CVM and TOSMAP.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSEV.CVM      0.0%
+  as a share of TOSMAP.CVM     0.0%
+  bytes on TOSEV.CVM           0 (0.0%) are also on the other
+  bytes on TOSMAP.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSEV.CVM           13 files, 651057152 bytes
+  only on TOSMAP.CVM          497 files, 364540192 bytes
+
+  only on TOSEV.CVM:
+    /SCE_001_009.AFS                           33269760
+    /SCE_011_020.AFS                           17149952
+    /SCE_021_030.AFS                           48359424
+    /SCE_031_040.AFS                           44972032
+    /SCE_041_050.AFS                           52830208
+    /SCE_051_060.AFS                           46231552
+    /SCE_061_070.AFS                           50249728
+    /SCE_071_083.AFS                           49668096
+    /SCE_084_090.AFS                           32086016
+    /SCE_091_100.AFS                           47554560
+    /SCE_101_110.AFS                           84774912
+    /SCE_111_120.AFS                           46987264
+    /SCE_121_132.AFS                           96923648
+
+  only on TOSMAP.CVM:
+    /AQU_D00.BIN                                 639927
+    /AQU_D01.BIN                                 975661
+    /AQU_D02.BIN                                1041390
+    /AQU_D03.BIN                                1024100
+    /AQU_D04.BIN                                 829761
+    /ART_I00B.BIN                                816281
+    /ART_I00_00.BIN                              843921
+    /ART_I00_01.BIN                              619524
+    /ART_I00_02.BIN                              847598
+    /ART_I00_03.BIN                              517113
+    /ART_I00_04.BIN                              589366
+    /ART_I00_05.BIN                              943264
+    /ART_I00_06.BIN                              434677
+    /ART_I00_07.BIN                              480581
+    /ART_I01_00.BIN                              977130
+    /ART_I01_01.BIN                              804184
+    /ART_I01_02.BIN                              995890
+    /ART_I01_03.BIN                             1064499
+    /ART_I02.BIN                                 876882
+    /ART_T00.BIN                                 703105
+    /ART_T01.BIN                                 575227
+    /ART_T02.BIN                                 386572
+    /ART_T03.BIN                                 415427
+    /ART_T04.BIN                                 795308
+    /ASK_I00.BIN                                1195434
+    /ASK_I01_00.BIN                              679008
+    /ASK_I01_01.BIN                              382454
+    /ASK_I01_02.BIN                              673832
+    /ASK_I01_03.BIN                              550713
+    /ASK_I02_00.BIN                              740874
+    /ASK_I02_01.BIN                              596969
+    /ASK_I02_02.BIN                              591801
+    /ASK_I02_03.BIN                              595328
+    /ASK_I03.BIN                                 840082
+    /ASK_I04.BIN                                 879241
+    /ASK_I05_00.BIN                              876377
+    /ASK_I05_01.BIN                              785245
+    /ASK_I06.BIN                                 967046
+    /ASK_I07_00.BIN                             1323443
+    /ASK_I07_01.BIN                              898642
+    ... and 457 more
+
+between TOSEV.CVM and TOSBTL.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSEV.CVM      0.0%
+  as a share of TOSBTL.CVM     0.0%
+  bytes on TOSEV.CVM           0 (0.0%) are also on the other
+  bytes on TOSBTL.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSEV.CVM           13 files, 651057152 bytes
+  only on TOSBTL.CVM          68 files, 256147686 bytes
+
+  only on TOSEV.CVM:
+    /SCE_001_009.AFS                           33269760
+    /SCE_011_020.AFS                           17149952
+    /SCE_021_030.AFS                           48359424
+    /SCE_031_040.AFS                           44972032
+    /SCE_041_050.AFS                           52830208
+    /SCE_051_060.AFS                           46231552
+    /SCE_061_070.AFS                           50249728
+    /SCE_071_083.AFS                           49668096
+    /SCE_084_090.AFS                           32086016
+    /SCE_091_100.AFS                           47554560
+    /SCE_101_110.AFS                           84774912
+    /SCE_111_120.AFS                           46987264
+    /SCE_121_132.AFS                           96923648
+
+  only on TOSBTL.CVM:
+    /01.ABN                                      134096
+    /02.ABN                                      175056
+    /03.ABN                                      180112
+    /04.ABN                                      158992
+    /05.ABN                                      176912
+    /06.ABN                                      209552
+    /07.ABN                                      142672
+    /08.ABN                                      161552
+    /09.ABN                                      142736
+    /BTLBG.DAT                                 10860544
+    /BTLCOLLET.CAB                               320651
+    /BTLCOLLET001.CAB                            299495
+    /BTLCOLLET002.CAB                            298179
+    /BTLCOLLET003.CAB                            303275
+    /BTLCOLLET005.CAB                            290707
+    /BTLCOLLET009.CAB                            301299
+    /BTLENEMY.DAT                              47814656
+    /BTLGENIUS.CAB                               286689
+    /BTLGENIUS001.CAB                            286665
+    /BTLGENIUS002.CAB                            274905
+    /BTLGENIUS003.CAB                            282271
+    /BTLGENIUS009.CAB                            283625
+    /BTLKRATOS.CAB                               340693
+    /BTLKRATOS001.CAB                            339097
+    /BTLKRATOS002.CAB                            340063
+    /BTLKRATOS003.CAB                            340063
+    /BTLKRATOS009.CAB                            325443
+    /BTLLLOYD.CAB                                351707
+    /BTLLLOYD001.CAB                             348269
+    /BTLLLOYD002.CAB                             355339
+    /BTLLLOYD003.CAB                             336923
+    /BTLLLOYD009.CAB                             349037
+    /BTLMAGIC.DAT                              23502848
+    /BTLMBENM.DAT                              69332992
+    /BTLPRESEA.CAB                               390525
+    /BTLPRESEA001.CAB                            392951
+    /BTLPRESEA002.CAB                            386977
+    /BTLPRESEA003.CAB                            390185
+    /BTLPRESEA004.CAB                            369269
+    /BTLPRESEA009.CAB                            384649
+    ... and 28 more
+
+between TOSEV.CVM and TOSSND.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSEV.CVM      0.0%
+  as a share of TOSSND.CVM     0.0%
+  bytes on TOSEV.CVM           0 (0.0%) are also on the other
+  bytes on TOSSND.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSEV.CVM           13 files, 651057152 bytes
+  only on TOSSND.CVM          177 files, 558227840 bytes
+
+  only on TOSEV.CVM:
+    /SCE_001_009.AFS                           33269760
+    /SCE_011_020.AFS                           17149952
+    /SCE_021_030.AFS                           48359424
+    /SCE_031_040.AFS                           44972032
+    /SCE_041_050.AFS                           52830208
+    /SCE_051_060.AFS                           46231552
+    /SCE_061_070.AFS                           50249728
+    /SCE_071_083.AFS                           49668096
+    /SCE_084_090.AFS                           32086016
+    /SCE_091_100.AFS                           47554560
+    /SCE_101_110.AFS                           84774912
+    /SCE_111_120.AFS                           46987264
+    /SCE_121_132.AFS                           96923648
+
+  only on TOSSND.CVM:
+    /ALLPHD.PAK                                  126272
+    /BGM_B000.ADX                               4679680
+    /BGM_B001.ADX                               5484544
+    /BGM_B002.ADX                               4020224
+    /BGM_B003.ADX                               5859328
+    /BGM_B004.ADX                               5302272
+    /BGM_B005.ADX                               5255168
+    /BGM_B006.ADX                               4470784
+    /BGM_B007.ADX                               4085760
+    /BGM_B008.ADX                               6103040
+    /BGM_B009.ADX                               5748736
+    /BGM_B010.ADX                               2013184
+    /BGM_B011.ADX                               1845248
+    /BGM_B012.ADX                               3917824
+    /BGM_B013.ADX                               4059136
+    /BGM_C000.ADX                               2994176
+    /BGM_C001.ADX                               2437120
+    /BGM_C003.ADX                               2082816
+    /BGM_C004.ADX                               4378624
+    /BGM_C006.ADX                               1812480
+    /BGM_C007.ADX                               4937728
+    /BGM_C008.ADX                               3514368
+    /BGM_C009.ADX                               2701312
+    /BGM_C011.ADX                               3172352
+    /BGM_C013.ADX                               2435072
+    /BGM_C014.ADX                               4085760
+    /BGM_C015.ADX                               4444160
+    /BGM_C017.ADX                               4554752
+    /BGM_C019.ADX                               2932736
+    /BGM_C021.ADX                               4886528
+    /BGM_C022.ADX                               3983360
+    /BGM_C024.ADX                               4200448
+    /BGM_C025.ADX                               3143680
+    /BGM_C026.ADX                               5136384
+    /BGM_C027.ADX                               1976320
+    /BGM_C028.ADX                               2177024
+    /BGM_D000.ADX                               4448256
+    /BGM_D001.ADX                               5169152
+    /BGM_D002.ADX                               3411968
+    /BGM_D003.ADX                               4272128
+    ... and 137 more
+
+between TOSEV.CVM and TOSMOV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSEV.CVM      0.0%
+  as a share of TOSMOV.CVM     0.0%
+  bytes on TOSEV.CVM           0 (0.0%) are also on the other
+  bytes on TOSMOV.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSEV.CVM           13 files, 651057152 bytes
+  only on TOSMOV.CVM          13 files, 1173915648 bytes
+
+  only on TOSEV.CVM:
+    /SCE_001_009.AFS                           33269760
+    /SCE_011_020.AFS                           17149952
+    /SCE_021_030.AFS                           48359424
+    /SCE_031_040.AFS                           44972032
+    /SCE_041_050.AFS                           52830208
+    /SCE_051_060.AFS                           46231552
+    /SCE_061_070.AFS                           50249728
+    /SCE_071_083.AFS                           49668096
+    /SCE_084_090.AFS                           32086016
+    /SCE_091_100.AFS                           47554560
+    /SCE_101_110.AFS                           84774912
+    /SCE_111_120.AFS                           46987264
+    /SCE_121_132.AFS                           96923648
+
+  only on TOSMOV.CVM:
+    /AS01.SFD                                 106610688
+    /AS02.SFD                                  53145600
+    /AS03.SFD                                 284207104
+    /AS_ADD00.SFD                              21686272
+    /AS_ADD01.SFD                              20801536
+    /END.SFD                                  332713984
+    /OP.SFD                                   123512832
+    /S01.SFD                                   55808000
+    /S03.SFD                                   24363008
+    /S07.SFD                                   21721088
+    /S08.SFD                                   40601600
+    /S09.SFD                                   49420288
+    /S10.SFD                                   39323648
+
+between TOSMAP.CVM and TOSBTL.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSMAP.CVM     0.0%
+  as a share of TOSBTL.CVM     0.0%
+  bytes on TOSMAP.CVM          0 (0.0%) are also on the other
+  bytes on TOSBTL.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSMAP.CVM          497 files, 364540192 bytes
+  only on TOSBTL.CVM          68 files, 256147686 bytes
+
+  only on TOSMAP.CVM:
+    /AQU_D00.BIN                                 639927
+    /AQU_D01.BIN                                 975661
+    /AQU_D02.BIN                                1041390
+    /AQU_D03.BIN                                1024100
+    /AQU_D04.BIN                                 829761
+    /ART_I00B.BIN                                816281
+    /ART_I00_00.BIN                              843921
+    /ART_I00_01.BIN                              619524
+    /ART_I00_02.BIN                              847598
+    /ART_I00_03.BIN                              517113
+    /ART_I00_04.BIN                              589366
+    /ART_I00_05.BIN                              943264
+    /ART_I00_06.BIN                              434677
+    /ART_I00_07.BIN                              480581
+    /ART_I01_00.BIN                              977130
+    /ART_I01_01.BIN                              804184
+    /ART_I01_02.BIN                              995890
+    /ART_I01_03.BIN                             1064499
+    /ART_I02.BIN                                 876882
+    /ART_T00.BIN                                 703105
+    /ART_T01.BIN                                 575227
+    /ART_T02.BIN                                 386572
+    /ART_T03.BIN                                 415427
+    /ART_T04.BIN                                 795308
+    /ASK_I00.BIN                                1195434
+    /ASK_I01_00.BIN                              679008
+    /ASK_I01_01.BIN                              382454
+    /ASK_I01_02.BIN                              673832
+    /ASK_I01_03.BIN                              550713
+    /ASK_I02_00.BIN                              740874
+    /ASK_I02_01.BIN                              596969
+    /ASK_I02_02.BIN                              591801
+    /ASK_I02_03.BIN                              595328
+    /ASK_I03.BIN                                 840082
+    /ASK_I04.BIN                                 879241
+    /ASK_I05_00.BIN                              876377
+    /ASK_I05_01.BIN                              785245
+    /ASK_I06.BIN                                 967046
+    /ASK_I07_00.BIN                             1323443
+    /ASK_I07_01.BIN                              898642
+    ... and 457 more
+
+  only on TOSBTL.CVM:
+    /01.ABN                                      134096
+    /02.ABN                                      175056
+    /03.ABN                                      180112
+    /04.ABN                                      158992
+    /05.ABN                                      176912
+    /06.ABN                                      209552
+    /07.ABN                                      142672
+    /08.ABN                                      161552
+    /09.ABN                                      142736
+    /BTLBG.DAT                                 10860544
+    /BTLCOLLET.CAB                               320651
+    /BTLCOLLET001.CAB                            299495
+    /BTLCOLLET002.CAB                            298179
+    /BTLCOLLET003.CAB                            303275
+    /BTLCOLLET005.CAB                            290707
+    /BTLCOLLET009.CAB                            301299
+    /BTLENEMY.DAT                              47814656
+    /BTLGENIUS.CAB                               286689
+    /BTLGENIUS001.CAB                            286665
+    /BTLGENIUS002.CAB                            274905
+    /BTLGENIUS003.CAB                            282271
+    /BTLGENIUS009.CAB                            283625
+    /BTLKRATOS.CAB                               340693
+    /BTLKRATOS001.CAB                            339097
+    /BTLKRATOS002.CAB                            340063
+    /BTLKRATOS003.CAB                            340063
+    /BTLKRATOS009.CAB                            325443
+    /BTLLLOYD.CAB                                351707
+    /BTLLLOYD001.CAB                             348269
+    /BTLLLOYD002.CAB                             355339
+    /BTLLLOYD003.CAB                             336923
+    /BTLLLOYD009.CAB                             349037
+    /BTLMAGIC.DAT                              23502848
+    /BTLMBENM.DAT                              69332992
+    /BTLPRESEA.CAB                               390525
+    /BTLPRESEA001.CAB                            392951
+    /BTLPRESEA002.CAB                            386977
+    /BTLPRESEA003.CAB                            390185
+    /BTLPRESEA004.CAB                            369269
+    /BTLPRESEA009.CAB                            384649
+    ... and 28 more
+
+between TOSMAP.CVM and TOSSND.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSMAP.CVM     0.0%
+  as a share of TOSSND.CVM     0.0%
+  bytes on TOSMAP.CVM          0 (0.0%) are also on the other
+  bytes on TOSSND.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSMAP.CVM          497 files, 364540192 bytes
+  only on TOSSND.CVM          177 files, 558227840 bytes
+
+  only on TOSMAP.CVM:
+    /AQU_D00.BIN                                 639927
+    /AQU_D01.BIN                                 975661
+    /AQU_D02.BIN                                1041390
+    /AQU_D03.BIN                                1024100
+    /AQU_D04.BIN                                 829761
+    /ART_I00B.BIN                                816281
+    /ART_I00_00.BIN                              843921
+    /ART_I00_01.BIN                              619524
+    /ART_I00_02.BIN                              847598
+    /ART_I00_03.BIN                              517113
+    /ART_I00_04.BIN                              589366
+    /ART_I00_05.BIN                              943264
+    /ART_I00_06.BIN                              434677
+    /ART_I00_07.BIN                              480581
+    /ART_I01_00.BIN                              977130
+    /ART_I01_01.BIN                              804184
+    /ART_I01_02.BIN                              995890
+    /ART_I01_03.BIN                             1064499
+    /ART_I02.BIN                                 876882
+    /ART_T00.BIN                                 703105
+    /ART_T01.BIN                                 575227
+    /ART_T02.BIN                                 386572
+    /ART_T03.BIN                                 415427
+    /ART_T04.BIN                                 795308
+    /ASK_I00.BIN                                1195434
+    /ASK_I01_00.BIN                              679008
+    /ASK_I01_01.BIN                              382454
+    /ASK_I01_02.BIN                              673832
+    /ASK_I01_03.BIN                              550713
+    /ASK_I02_00.BIN                              740874
+    /ASK_I02_01.BIN                              596969
+    /ASK_I02_02.BIN                              591801
+    /ASK_I02_03.BIN                              595328
+    /ASK_I03.BIN                                 840082
+    /ASK_I04.BIN                                 879241
+    /ASK_I05_00.BIN                              876377
+    /ASK_I05_01.BIN                              785245
+    /ASK_I06.BIN                                 967046
+    /ASK_I07_00.BIN                             1323443
+    /ASK_I07_01.BIN                              898642
+    ... and 457 more
+
+  only on TOSSND.CVM:
+    /ALLPHD.PAK                                  126272
+    /BGM_B000.ADX                               4679680
+    /BGM_B001.ADX                               5484544
+    /BGM_B002.ADX                               4020224
+    /BGM_B003.ADX                               5859328
+    /BGM_B004.ADX                               5302272
+    /BGM_B005.ADX                               5255168
+    /BGM_B006.ADX                               4470784
+    /BGM_B007.ADX                               4085760
+    /BGM_B008.ADX                               6103040
+    /BGM_B009.ADX                               5748736
+    /BGM_B010.ADX                               2013184
+    /BGM_B011.ADX                               1845248
+    /BGM_B012.ADX                               3917824
+    /BGM_B013.ADX                               4059136
+    /BGM_C000.ADX                               2994176
+    /BGM_C001.ADX                               2437120
+    /BGM_C003.ADX                               2082816
+    /BGM_C004.ADX                               4378624
+    /BGM_C006.ADX                               1812480
+    /BGM_C007.ADX                               4937728
+    /BGM_C008.ADX                               3514368
+    /BGM_C009.ADX                               2701312
+    /BGM_C011.ADX                               3172352
+    /BGM_C013.ADX                               2435072
+    /BGM_C014.ADX                               4085760
+    /BGM_C015.ADX                               4444160
+    /BGM_C017.ADX                               4554752
+    /BGM_C019.ADX                               2932736
+    /BGM_C021.ADX                               4886528
+    /BGM_C022.ADX                               3983360
+    /BGM_C024.ADX                               4200448
+    /BGM_C025.ADX                               3143680
+    /BGM_C026.ADX                               5136384
+    /BGM_C027.ADX                               1976320
+    /BGM_C028.ADX                               2177024
+    /BGM_D000.ADX                               4448256
+    /BGM_D001.ADX                               5169152
+    /BGM_D002.ADX                               3411968
+    /BGM_D003.ADX                               4272128
+    ... and 137 more
+
+between TOSMAP.CVM and TOSMOV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSMAP.CVM     0.0%
+  as a share of TOSMOV.CVM     0.0%
+  bytes on TOSMAP.CVM          0 (0.0%) are also on the other
+  bytes on TOSMOV.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSMAP.CVM          497 files, 364540192 bytes
+  only on TOSMOV.CVM          13 files, 1173915648 bytes
+
+  only on TOSMAP.CVM:
+    /AQU_D00.BIN                                 639927
+    /AQU_D01.BIN                                 975661
+    /AQU_D02.BIN                                1041390
+    /AQU_D03.BIN                                1024100
+    /AQU_D04.BIN                                 829761
+    /ART_I00B.BIN                                816281
+    /ART_I00_00.BIN                              843921
+    /ART_I00_01.BIN                              619524
+    /ART_I00_02.BIN                              847598
+    /ART_I00_03.BIN                              517113
+    /ART_I00_04.BIN                              589366
+    /ART_I00_05.BIN                              943264
+    /ART_I00_06.BIN                              434677
+    /ART_I00_07.BIN                              480581
+    /ART_I01_00.BIN                              977130
+    /ART_I01_01.BIN                              804184
+    /ART_I01_02.BIN                              995890
+    /ART_I01_03.BIN                             1064499
+    /ART_I02.BIN                                 876882
+    /ART_T00.BIN                                 703105
+    /ART_T01.BIN                                 575227
+    /ART_T02.BIN                                 386572
+    /ART_T03.BIN                                 415427
+    /ART_T04.BIN                                 795308
+    /ASK_I00.BIN                                1195434
+    /ASK_I01_00.BIN                              679008
+    /ASK_I01_01.BIN                              382454
+    /ASK_I01_02.BIN                              673832
+    /ASK_I01_03.BIN                              550713
+    /ASK_I02_00.BIN                              740874
+    /ASK_I02_01.BIN                              596969
+    /ASK_I02_02.BIN                              591801
+    /ASK_I02_03.BIN                              595328
+    /ASK_I03.BIN                                 840082
+    /ASK_I04.BIN                                 879241
+    /ASK_I05_00.BIN                              876377
+    /ASK_I05_01.BIN                              785245
+    /ASK_I06.BIN                                 967046
+    /ASK_I07_00.BIN                             1323443
+    /ASK_I07_01.BIN                              898642
+    ... and 457 more
+
+  only on TOSMOV.CVM:
+    /AS01.SFD                                 106610688
+    /AS02.SFD                                  53145600
+    /AS03.SFD                                 284207104
+    /AS_ADD00.SFD                              21686272
+    /AS_ADD01.SFD                              20801536
+    /END.SFD                                  332713984
+    /OP.SFD                                   123512832
+    /S01.SFD                                   55808000
+    /S03.SFD                                   24363008
+    /S07.SFD                                   21721088
+    /S08.SFD                                   40601600
+    /S09.SFD                                   49420288
+    /S10.SFD                                   39323648
+
+between TOSBTL.CVM and TOSSND.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSBTL.CVM     0.0%
+  as a share of TOSSND.CVM     0.0%
+  bytes on TOSBTL.CVM          0 (0.0%) are also on the other
+  bytes on TOSSND.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     1
+    identical content         0 (0 bytes)
+    different content         1
+  only on TOSBTL.CVM          67 files, 217313510 bytes
+  only on TOSSND.CVM          176 files, 520243584 bytes
+
+  same name, different bytes:
+    /BTLVOICE.AFS                              38834176    37984256
+
+  only on TOSBTL.CVM:
+    /01.ABN                                      134096
+    /02.ABN                                      175056
+    /03.ABN                                      180112
+    /04.ABN                                      158992
+    /05.ABN                                      176912
+    /06.ABN                                      209552
+    /07.ABN                                      142672
+    /08.ABN                                      161552
+    /09.ABN                                      142736
+    /BTLBG.DAT                                 10860544
+    /BTLCOLLET.CAB                               320651
+    /BTLCOLLET001.CAB                            299495
+    /BTLCOLLET002.CAB                            298179
+    /BTLCOLLET003.CAB                            303275
+    /BTLCOLLET005.CAB                            290707
+    /BTLCOLLET009.CAB                            301299
+    /BTLENEMY.DAT                              47814656
+    /BTLGENIUS.CAB                               286689
+    /BTLGENIUS001.CAB                            286665
+    /BTLGENIUS002.CAB                            274905
+    /BTLGENIUS003.CAB                            282271
+    /BTLGENIUS009.CAB                            283625
+    /BTLKRATOS.CAB                               340693
+    /BTLKRATOS001.CAB                            339097
+    /BTLKRATOS002.CAB                            340063
+    /BTLKRATOS003.CAB                            340063
+    /BTLKRATOS009.CAB                            325443
+    /BTLLLOYD.CAB                                351707
+    /BTLLLOYD001.CAB                             348269
+    /BTLLLOYD002.CAB                             355339
+    /BTLLLOYD003.CAB                             336923
+    /BTLLLOYD009.CAB                             349037
+    /BTLMAGIC.DAT                              23502848
+    /BTLMBENM.DAT                              69332992
+    /BTLPRESEA.CAB                               390525
+    /BTLPRESEA001.CAB                            392951
+    /BTLPRESEA002.CAB                            386977
+    /BTLPRESEA003.CAB                            390185
+    /BTLPRESEA004.CAB                            369269
+    /BTLPRESEA009.CAB                            384649
+    ... and 27 more
+
+  only on TOSSND.CVM:
+    /ALLPHD.PAK                                  126272
+    /BGM_B000.ADX                               4679680
+    /BGM_B001.ADX                               5484544
+    /BGM_B002.ADX                               4020224
+    /BGM_B003.ADX                               5859328
+    /BGM_B004.ADX                               5302272
+    /BGM_B005.ADX                               5255168
+    /BGM_B006.ADX                               4470784
+    /BGM_B007.ADX                               4085760
+    /BGM_B008.ADX                               6103040
+    /BGM_B009.ADX                               5748736
+    /BGM_B010.ADX                               2013184
+    /BGM_B011.ADX                               1845248
+    /BGM_B012.ADX                               3917824
+    /BGM_B013.ADX                               4059136
+    /BGM_C000.ADX                               2994176
+    /BGM_C001.ADX                               2437120
+    /BGM_C003.ADX                               2082816
+    /BGM_C004.ADX                               4378624
+    /BGM_C006.ADX                               1812480
+    /BGM_C007.ADX                               4937728
+    /BGM_C008.ADX                               3514368
+    /BGM_C009.ADX                               2701312
+    /BGM_C011.ADX                               3172352
+    /BGM_C013.ADX                               2435072
+    /BGM_C014.ADX                               4085760
+    /BGM_C015.ADX                               4444160
+    /BGM_C017.ADX                               4554752
+    /BGM_C019.ADX                               2932736
+    /BGM_C021.ADX                               4886528
+    /BGM_C022.ADX                               3983360
+    /BGM_C024.ADX                               4200448
+    /BGM_C025.ADX                               3143680
+    /BGM_C026.ADX                               5136384
+    /BGM_C027.ADX                               1976320
+    /BGM_C028.ADX                               2177024
+    /BGM_D000.ADX                               4448256
+    /BGM_D001.ADX                               5169152
+    /BGM_D002.ADX                               3411968
+    /BGM_D003.ADX                               4272128
+    ... and 136 more
+
+between TOSBTL.CVM and TOSMOV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSBTL.CVM     0.0%
+  as a share of TOSMOV.CVM     0.0%
+  bytes on TOSBTL.CVM          0 (0.0%) are also on the other
+  bytes on TOSMOV.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSBTL.CVM          68 files, 256147686 bytes
+  only on TOSMOV.CVM          13 files, 1173915648 bytes
+
+  only on TOSBTL.CVM:
+    /01.ABN                                      134096
+    /02.ABN                                      175056
+    /03.ABN                                      180112
+    /04.ABN                                      158992
+    /05.ABN                                      176912
+    /06.ABN                                      209552
+    /07.ABN                                      142672
+    /08.ABN                                      161552
+    /09.ABN                                      142736
+    /BTLBG.DAT                                 10860544
+    /BTLCOLLET.CAB                               320651
+    /BTLCOLLET001.CAB                            299495
+    /BTLCOLLET002.CAB                            298179
+    /BTLCOLLET003.CAB                            303275
+    /BTLCOLLET005.CAB                            290707
+    /BTLCOLLET009.CAB                            301299
+    /BTLENEMY.DAT                              47814656
+    /BTLGENIUS.CAB                               286689
+    /BTLGENIUS001.CAB                            286665
+    /BTLGENIUS002.CAB                            274905
+    /BTLGENIUS003.CAB                            282271
+    /BTLGENIUS009.CAB                            283625
+    /BTLKRATOS.CAB                               340693
+    /BTLKRATOS001.CAB                            339097
+    /BTLKRATOS002.CAB                            340063
+    /BTLKRATOS003.CAB                            340063
+    /BTLKRATOS009.CAB                            325443
+    /BTLLLOYD.CAB                                351707
+    /BTLLLOYD001.CAB                             348269
+    /BTLLLOYD002.CAB                             355339
+    /BTLLLOYD003.CAB                             336923
+    /BTLLLOYD009.CAB                             349037
+    /BTLMAGIC.DAT                              23502848
+    /BTLMBENM.DAT                              69332992
+    /BTLPRESEA.CAB                               390525
+    /BTLPRESEA001.CAB                            392951
+    /BTLPRESEA002.CAB                            386977
+    /BTLPRESEA003.CAB                            390185
+    /BTLPRESEA004.CAB                            369269
+    /BTLPRESEA009.CAB                            384649
+    ... and 28 more
+
+  only on TOSMOV.CVM:
+    /AS01.SFD                                 106610688
+    /AS02.SFD                                  53145600
+    /AS03.SFD                                 284207104
+    /AS_ADD00.SFD                              21686272
+    /AS_ADD01.SFD                              20801536
+    /END.SFD                                  332713984
+    /OP.SFD                                   123512832
+    /S01.SFD                                   55808000
+    /S03.SFD                                   24363008
+    /S07.SFD                                   21721088
+    /S08.SFD                                   40601600
+    /S09.SFD                                   49420288
+    /S10.SFD                                   39323648
+
+between TOSSND.CVM and TOSMOV.CVM
+  distinct contents on both   0
+  bytes of them (one copy)    0
+  as a share of TOSSND.CVM     0.0%
+  as a share of TOSMOV.CVM     0.0%
+  bytes on TOSSND.CVM          0 (0.0%) are also on the other
+  bytes on TOSMOV.CVM          0 (0.0%) are also on the other
+
+  same path on both discs     0
+    identical content         0 (0 bytes)
+    different content         0
+  only on TOSSND.CVM          177 files, 558227840 bytes
+  only on TOSMOV.CVM          13 files, 1173915648 bytes
+
+  only on TOSSND.CVM:
+    /ALLPHD.PAK                                  126272
+    /BGM_B000.ADX                               4679680
+    /BGM_B001.ADX                               5484544
+    /BGM_B002.ADX                               4020224
+    /BGM_B003.ADX                               5859328
+    /BGM_B004.ADX                               5302272
+    /BGM_B005.ADX                               5255168
+    /BGM_B006.ADX                               4470784
+    /BGM_B007.ADX                               4085760
+    /BGM_B008.ADX                               6103040
+    /BGM_B009.ADX                               5748736
+    /BGM_B010.ADX                               2013184
+    /BGM_B011.ADX                               1845248
+    /BGM_B012.ADX                               3917824
+    /BGM_B013.ADX                               4059136
+    /BGM_C000.ADX                               2994176
+    /BGM_C001.ADX                               2437120
+    /BGM_C003.ADX                               2082816
+    /BGM_C004.ADX                               4378624
+    /BGM_C006.ADX                               1812480
+    /BGM_C007.ADX                               4937728
+    /BGM_C008.ADX                               3514368
+    /BGM_C009.ADX                               2701312
+    /BGM_C011.ADX                               3172352
+    /BGM_C013.ADX                               2435072
+    /BGM_C014.ADX                               4085760
+    /BGM_C015.ADX                               4444160
+    /BGM_C017.ADX                               4554752
+    /BGM_C019.ADX                               2932736
+    /BGM_C021.ADX                               4886528
+    /BGM_C022.ADX                               3983360
+    /BGM_C024.ADX                               4200448
+    /BGM_C025.ADX                               3143680
+    /BGM_C026.ADX                               5136384
+    /BGM_C027.ADX                               1976320
+    /BGM_C028.ADX                               2177024
+    /BGM_D000.ADX                               4448256
+    /BGM_D001.ADX                               5169152
+    /BGM_D002.ADX                               3411968
+    /BGM_D003.ADX                               4272128
+    ... and 137 more
+
+  only on TOSMOV.CVM:
+    /AS01.SFD                                 106610688
+    /AS02.SFD                                  53145600
+    /AS03.SFD                                 284207104
+    /AS_ADD00.SFD                              21686272
+    /AS_ADD01.SFD                              20801536
+    /END.SFD                                  332713984
+    /OP.SFD                                   123512832
+    /S01.SFD                                   55808000
+    /S03.SFD                                   24363008
+    /S07.SFD                                   21721088
+    /S08.SFD                                   40601600
+    /S09.SFD                                   49420288
+    /S10.SFD                                   39323648
+
+all of them together
+  files                1710
+  distinct by content  1650
+  bytes                3563578735
+  distinct bytes       3561079411
+  bytes that are a copy 2499324 (0.1%)
+
+      WASTED  COPIES         EACH  FIRST
+      299648       2       299648  /L_REGAL000.BIN
+      292544       2       292544  /COLLET_LOW.BIN
+      284288       2       284288  /KRATOS_LOW.BIN
+      282816       2       282816  /L_ZELOSZ000.BIN
+      281024       2       281024  /L_SHIHNA000.BIN
+      267904       2       267904  /L_PRESEA000.BIN
+      266368       2       266368  /L_REFILL000.BIN
+      266304       2       266304  /LLOYD_LOW.BIN
+      239424       2       239424  /GENIUS_LOW.BIN
+       11004       2        11004  /END.TXT
+        3840      21          192  /FC_B034.SKP
+        2688      15          192  /FC_B022.SKP
+        1152      13           96  /FC_C106.SKP
+         192       4           64  /COLLET003.BIN
+         128       2          128  /FC_C104.SKP
+

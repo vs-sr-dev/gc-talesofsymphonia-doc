@@ -1,0 +1,202 @@
+GameCube, both discs : 1611 distinct base names, 3200 entries
+PlayStation 2        : 1709 distinct base names, 1710 entries
+
+base names on the GameCube only : 94
+base names on the PlayStation 2 only : 155
+base names on both : 1516
+
+--- extensions ---
+EXT              GC      PS2
+ABN               0        9
+ADX               1      107
+AFS              17       19
+AN2               0        1
+ANM              13        0
+BFP               1        1
+BIN             595      662
+BNR               1        0
+CAB              45       53
+D                16       15
+DAT             247      241
+H4M              10        0
+ICO               0        1
+NA                0        2
+NTA               0        2
+NUT               0       16
+PAK               0        1
+PBD               0       67
+REL               8        0
+SFD               0       13
+SKP             487      486
+SKT               1        1
+SND              19        0
+SO               10        4
+SONG            118        0
+STR               4        0
+TPL              16        0
+TXT               1        4
+Z                 1        4
+
+--- on the PlayStation 2 only (first 80 base names) ---
+  ALLPHD
+  AS01
+  AS02
+  AS03
+  AS_ADD00
+  AS_ADD01
+  BTLCOLLET009
+  BTLGENIUS009
+  BTLKRATOS009
+  BTLLLOYD009
+  BTLMBENM
+  BTLPRESEA009
+  BTLREFILL009
+  BTLREGAL009
+  BTLSHIHNA009
+  BTLSTR
+  BTLZELOSZ009
+  C01
+  CHU_T06
+  CHU_T13
+  COLLET009
+  D01
+  D02
+  D03
+  D04
+  D05
+  D06
+  D07
+  D08
+  D09
+  D10
+  D11
+  D12
+  D13
+  D14
+  D15
+  D16
+  D17
+  D18
+  D19
+  D20
+  D21
+  D22
+  D23
+  D24
+  D25
+  D26
+  D27
+  D28
+  D29
+  D30
+  D31
+  D32
+  D33
+  DELI
+  D_OV_BTL
+  D_OV_M1
+  D_OV_SFD
+  E
+  F01
+  F02
+  F03
+  F04
+  FONTDATA
+  FONTTYPEA
+  FONTTYPEB
+  FONTTYPEC
+  FSKY
+  GENIUS009
+  IRXARC
+  KRATOS009
+  LLOYD009
+  L_COLLET000
+  L_COLLET001
+  L_COLLET002
+  L_COLLET003
+  L_COLLET004
+  L_COLLET005
+  L_COLLET009
+  L_GENIUS000
+
+--- on the GameCube only (first 80 base names) ---
+  AS1
+  AS2
+  AS3
+  BGM_C016
+  BGM_C018
+  BGM_C020
+  BGM_C023
+  BGM_DAMY_END
+  BGM_DAMY_START
+  BGM_E012
+  BTLRUTEE
+  BTLVBANK
+  BTL_EV005
+  BTL_EV006
+  BTL_EV007
+  BTL_EV008
+  BTL_EV009
+  CHANGE_DISC
+  DEP_FONTB0
+  DEP_FONTB1
+  END_ROLL_WALL
+  ENEMY
+  FONTB0
+  FONTB1
+  GAGE_FONTB0
+  GAGE_FONTB1
+  INST
+  MDL_ASK_I00_00
+  MDL_ASK_I00_00_L
+  MDL_ASK_T02_IVT00
+  MDL_ASK_T02_IVT01
+  MDL_ASK_T02_IVT02
+  MDL_ASK_T02_IVT03
+  MDL_ASK_T02_IVT04
+  MDL_ASK_T02_IVT05
+  MDL_BAR_T01_IVT
+  MDL_IWA_D00_01
+  MDL_IZR_T01_IVT
+  MDL_SPD_I00_00
+  MDL_SPD_I00_00_L
+  MDL_SPD_T00
+  MV_TERR
+  M_TOP2BTL
+  M_TOP2FIELD
+  NDOG01
+  NDOG02
+  NDOG03
+  OPENING
+  PIC000
+  PIC001
+  PIC002
+  PIC003
+  POP_FONTB0
+  POP_FONTB1
+  R_TOP2BTL
+  R_TOP2FIELD
+  R_TOP2RMS0
+  S1
+  S2
+  SE
+  SE_EV00
+  SE_EV01
+  SE_EV02
+  SE_EV03
+  SE_EV04
+  SE_EV05
+  SE_EV06
+  SE_EV07
+  SWITCH01
+  TEMP1
+  TEMP2
+  TEMP3
+  TEMP4
+  TEMP5
+  TESTSKIT
+  TOON
+  TOONTABLE
+  TOP2BTL
+  TOP2BTLD
+  TOP2FIELD

@@ -1,0 +1,14 @@
+=== _work/ps2/IOPRP300.IMG  275345 bytes
+ names: 
+ idents: ROM_file_driver, cdvd_ee_driver
+  Ver.     @0xF20E: b' Kernel Ver. 2.2\r\n    Copyright 1999-2002 (C) Sony Compu'
+  version  @0x3767B: b' module version 0.1.1 (C)SCEI\n\x00\x00\x00Dummy Entry Called\n\x00thp'
+  version  @0x3C688: b'loadelf version 3.30\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00.iopmod'
+
+=== _work/ps2/IRXARC.BIN  275264 bytes
+ names: cri_adxi.irx, libsd.irx, mcman.irx, mcserv.irx, mtapman.irx, nuSound.irx, padman.irx, sio2man.irx
+ idents: CRI_ADX_Driver
+  Ver.     @0x3E74B: b' Driver Ver.9.20(%s %s)\n\x00May 10 2004\x0013:11:07\x00\x00\x00\x00thpri=\x00'
+  Ver.     @0x3E8E5: b'\x00\x00\x00\nDTX Ver.1.07 Build:May 10 2004 13:11:06\n\x00\x00\x00Hello fro'
+  Ver.     @0x3F454: b'\nADXRT  Ver.3010 Build:May 10 2004 13:11:06\n\x00\x00\x00\x00\x00\x00\x00\x00\xc0\x97\x00\x00'
+
