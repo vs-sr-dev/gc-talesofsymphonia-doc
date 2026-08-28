@@ -102,6 +102,16 @@ cabinet reader can open, carrying the only per-asset timestamps on either
 release. And nine `CVM` volumes still called `SAMPLE_GAME_TITLE`.
 [→ 09](docs/09-leftovers.md)
 
+**And a fifth, five years later.** The direct sequel — *Tales of Symphonia:
+Ratatosk no Kishi*, Wii, 2008 — runs on the same PowerPC 750 family and is the
+first build in the corpus on which the strong byte test can be run **across a
+console generation**. 872 bytes of this disc's decoder score **10 bytes** in it,
+against **10** and **12** for two unrelated Wii titles — while the two
+executables share **835 contiguous identical bytes** of Nintendo SDK code that
+neither control has. The codec did not cross. **The `.cab` compressor did**:
+`5b 80 80 8d` sits at offset `+8` of 545 of 545 payloads here and 1,506 of
+1,506 there. [→ 06](docs/06-decoder-lineage.md)
+
 Start at [docs/01-overview.md](docs/01-overview.md).
 
 ---
@@ -137,6 +147,10 @@ Start at [docs/01-overview.md](docs/01-overview.md).
 | `.cab` payloads are not block-codec streams | **Verified** — 13.6 MB scanned at every byte offset, 0 blocks | [99](docs/99-open-questions.md) |
 | What the `.cab` payloads *are* | *Open* | [99](docs/99-open-questions.md) |
 | Why the packer's blocks grew thirtyfold | *Open* | [99](docs/99-open-questions.md) |
+| The 2003 decoder scores 10 bytes in the 2008 Wii sequel, against 835 of shared SDK code | **Verified** | [06](docs/06-decoder-lineage.md) |
+| …and 10 and 12 in two unrelated Wii titles, so 10 is the noise floor | **Verified** | [06](docs/06-decoder-lineage.md) |
+| The `.cab` payload compressor is the same tool in 2003 and 2008 | **Verified** — `5b 80 80 8d` at `+8` in 2,051 of 2,051 payloads | [99](docs/99-open-questions.md) |
+| …what that compressor is | *Open* | [99](docs/99-open-questions.md) |
 
 ---
 
@@ -190,6 +204,7 @@ This is the fifth title in a series of pipelines that share one specification:
 | Venus & Braves | PlayStation 2 | 2003 | **no** — on the *Destiny 2* disc | same |
 | **Tales of Symphonia** | **GameCube** | **2003** | **yes — on PowerPC** | this repository |
 | **Tales of Symphonia** | **PlayStation 2** | **2004** | **yes — and edited** | this repository |
+| **Ratatosk no Kishi** | **Wii** | **2008** | **no** — the direct sequel, same ISA | [wii-talesofsymphoniadotnw-doc](https://github.com/vs-sr-dev/wii-talesofsymphoniadotnw-doc) |
 
 The format itself is documented once, in
 [tales-blockcodec-doc](https://github.com/vs-sr-dev/tales-blockcodec-doc).

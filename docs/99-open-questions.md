@@ -43,6 +43,8 @@ changed. [05](05-block-codec.md)
 
 ### What compresses the `.cab` payloads?
 
+**Still open, and now bounded from a second direction.**
+
 Forty-five archives on each GameCube disc and fifty-three on the PlayStation 2
 disc wear a Microsoft Cabinet header that no cabinet reader can open, and hold
 one member each at roughly 2.4× to 4.5× compression. The payloads are **not**
@@ -53,6 +55,24 @@ on either release, and it holds most of the character art.
 [04](04-executables-and-tools.md),
 [`reports/gc-cab-payloads.txt`](../reports/gc-cab-payloads.txt)
 
+The 2008 Wii sequel carries **1,506** of the same archives, 813 MB of payload,
+and tabulating the first sixteen bytes of every payload on both releases makes
+two things measurable that one release could not:
+
+* **the same compressor wrote all of them.** Bytes `+8`…`+11` are
+  `5b 80 80 8d` in **545 of 545** payloads here and **1,506 of 1,506** there,
+  with bytes `+0`…`+3` uniformly random in both. A constant four-byte run
+  behind four random bytes is a compressor's preamble, not data. So this is
+  **one** unidentified format across five years and two consoles, not two;
+* **it is an entropy coder.** The 2008 payloads measure 7.994–7.997 bits per
+  byte and deflate takes 0.48% off them. Byte `+6` is `0x00` in 98% of them,
+  which is what an LZMA-family range coder emits before any real output — a
+  *consistent* reading and nothing more. `zlib`, `bz2` and `lzma` in every
+  framing fail at every offset in the first sixteen bytes.
+
+Whichever release the decompressor is read out of, it answers for both.
+[wii-talesofsymphoniadotnw-doc](https://github.com/vs-sr-dev/wii-talesofsymphoniadotnw-doc)
+
 ### Why is 16% of the PlayStation 2 disc empty?
 
 334,978 sectors, 686 MB, almost all of it one hole between LBA 577,224 and LBA
@@ -60,6 +80,14 @@ on either release, and it holds most of the character art.
 plausible and unproven; so is the reading that the layout was inherited from a
 plan for more content. *Tales of Destiny 2*, same publisher, two years earlier,
 left 278 sectors.
+
+The 2008 Wii sequel does the same thing on a smaller scale and does not explain
+it either: **176,680,496 bytes — 4.12% of its game partition — is one hole in
+one place**, confirmed as generated padding from the RVZ container's own
+lagged-Fibonacci generator states, and it sits immediately after the
+forty-four files holding the party's models and before all 13,342 others. Two
+discs from this line, two holes directly after a hot region, no explanation
+from either.
 
 ---
 
@@ -175,3 +203,15 @@ rather than here, and section 8 there has been updated with them:
    first direct measurement of the tool in five titles.
 4. The **opcode-sequence method does not cross instruction sets**, which bounds
    how far the corpus's own strongest tool can be pushed.
+
+And a fifth arrived in 2008, from this game's direct sequel. *Tales of
+Symphonia: Ratatosk no Kishi* (Wii) is the first build on which the strong byte
+test could be run **across a console generation** — Gekko and Broadway are both
+PowerPC 750 — and it returns **10 bytes** against **835 contiguous bytes** of
+shared SDK code between the same two executables. It is the Nintendo build from
+inside the studio line that the corpus's boundary statement had been missing,
+and its zero closes the alternative reading that the codebase had simply never
+shipped a Nintendo title. The **`.cab` payload compressor**, by contrast, is
+demonstrably the same tool in 2003 and 2008.
+[06](06-decoder-lineage.md),
+[wii-talesofsymphoniadotnw-doc](https://github.com/vs-sr-dev/wii-talesofsymphoniadotnw-doc)

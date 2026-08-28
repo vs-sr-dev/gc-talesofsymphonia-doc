@@ -206,3 +206,66 @@ source was opened and edited.
 
 [`reports/decoder-lineage.txt`](../reports/decoder-lineage.txt),
 [`reports/ps2-4078-scan.txt`](../reports/ps2-4078-scan.txt).
+
+---
+
+## And in 2008 it was gone
+
+*Tales of Symphonia: Ratatosk no Kishi* is the direct sequel to this game,
+Wii, 26 June 2008, and it is the first build in the corpus that lets the strong
+test run **across a console generation**. The Gekko and the Broadway are both
+PowerPC 750 derivatives, both games are Metrowerks builds, and both executables
+are `.dol` files — so the question is not *is it the same source* but *is it the
+same object*, and it can be answered without being told where to look.
+
+The two 2003 decoder routines live at `0x8005D088` (1,616 bytes) and
+`0x8005D6D8` (1,332 bytes), each linked twice and byte for byte identical.
+Taking 872 bytes of the first and searching whole executables at any alignment:
+
+| Haystack | Longest identical run |
+|---|---:|
+| this disc's `main.dol` — the instrument on itself | **872** |
+| **Ratatosk no Kishi, Wii 2008** | **10 bytes** |
+| *The Last Story*, Wii 2011 — negative control | 12 bytes |
+| *FF Crystal Chronicles: The Crystal Bearers*, Wii 2009 — negative control | 10 bytes |
+| the 2008 disc's own apploader — negative control | 7 bytes |
+
+The controls had to be built rather than borrowed. The corpus's usual one,
+`VENUS.ELF`, is MIPS, and against a PowerPC needle it would measure the
+architecture rather than the absence.
+
+**And byte equality was available.** The longest identical run between this
+executable's text and the 2008 one's is 1,275 bytes — which is worthless,
+because *Crystal Bearers* contains the same 1,275 bytes of Nintendo boot code.
+Subtracting the control and repeating the search gives **835 contiguous
+identical bytes**, 106 distinct byte values, at `0x800F5E7C` here and
+`0x800AD360` there: `OSSaveFPUContext`, the SDK's paired-single context save,
+compiled in 2003 and again in 2008 to the same bytes. Widened, the two builds
+share **12,143 bytes across 96 regions of at least 64 bytes** that neither
+control image has — and **not one of those regions touches either decoder
+copy**; the nearest ends 480 bytes before `0x800D6318`'s prologue.
+
+```
+   835 bytes of library code identical
+    10 bytes of decoder
+```
+
+That is the shape of the 2004 measurement — 276 bytes of runtime against 17 of
+decoder — run for the first time across a change of console, and it says the
+same thing: the toolchain is not the explanation.
+
+The rest of the 2008 build agrees. Zero `4078`, `4079`, `4070` and `4071` over
+637,871 PowerPC instruction words, where this build has twelve sites in four
+routines; zero `ori rX, rX, 0xFF00` refills where this build has fourteen; zero
+fingerprint clusters where this build has four, one per decoder copy; and zero
+genuine blocks under the unmodified reference decoder across the whole 4.29 GB
+game partition, against a control returning 1,089 in the same run.
+
+**What did cross is the packer.** Both discs wrap their compressed assets in
+the fake Microsoft Cabinet described in [04](04-executables-and-tools.md), and
+the compressed stream behind that header carries the same four-byte constant at
+offset `+8` in **545 of 545 payloads here and 1,506 of 1,506 there** — with the
+four bytes in front of it uniformly random in both. The envelope and its
+compressor survived five years and a console; the block codec did not.
+
+[wii-talesofsymphoniadotnw-doc](https://github.com/vs-sr-dev/wii-talesofsymphoniadotnw-doc)
