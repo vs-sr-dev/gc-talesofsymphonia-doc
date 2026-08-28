@@ -73,6 +73,22 @@ two things measurable that one release could not:
 Whichever release the decompressor is read out of, it answers for both.
 [wii-talesofsymphoniadotnw-doc](https://github.com/vs-sr-dev/wii-talesofsymphoniadotnw-doc)
 
+**And a third release bounds it a third way, by not having it.** *Tales of
+Vesperia* (Xbox 360, 7 August 2008) was mastered six days after the Wii disc,
+from the same studio line, and carries **no `MSCF` at all**: two hits across
+7.84 GB against a chance rate of 1.82, both located and both inside
+high-entropy payload, and no `5b 80 80 8d` anywhere. Its 4,126 archives are
+`FPS4` instead, and what it compresses them with is Microsoft's own XCompress
+(6,128 streams) and the 1997 block codec (7,859 blocks) — the second of which
+this disc also carries and the Wii sequel does not.
+
+So the two releases that share this format are the two Nintendo ones, and the
+question narrows rather than widens: the `.cab` compressor is one tool used on
+two consoles across five years, and it was **not** carried to the third console
+even though the block codec was. Reading it out of either Nintendo release
+still answers for both, and there is no third image to read it out of.
+[xbox360-talesofvesperia-doc](https://github.com/vs-sr-dev/xbox360-talesofvesperia-doc)
+
 ### Why is 16% of the PlayStation 2 disc empty?
 
 334,978 sectors, 686 MB, almost all of it one hole between LBA 577,224 and LBA
@@ -215,3 +231,11 @@ shipped a Nintendo title. The **`.cab` payload compressor**, by contrast, is
 demonstrably the same tool in 2003 and 2008.
 [06](06-decoder-lineage.md),
 [wii-talesofsymphoniadotnw-doc](https://github.com/vs-sr-dev/wii-talesofsymphoniadotnw-doc)
+
+A sixth arrived six weeks after that, and it reverses the pair. *Tales of
+Vesperia* (Xbox 360, 2008), mastered six days after the Wii disc from the same
+line, **carries this decoder and not that packer** — the 1997 shape complete,
+8,255 of 8,255 blocks, and no `MSCF` and no `5b 80 80 8d` anywhere on 7.84 GB.
+So across the three 2003–2008 builds the codec appears twice and the `.cab`
+compressor twice, and they are not the same two. Neither one is the constant.
+[xbox360-talesofvesperia-doc](https://github.com/vs-sr-dev/xbox360-talesofvesperia-doc)
