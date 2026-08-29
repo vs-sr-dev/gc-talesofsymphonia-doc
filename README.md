@@ -127,6 +127,17 @@ measured across a console generation:
 | *The Last Story*, Wii 2011 — control | 12 |
 | *Crystal Bearers*, Wii 2009 — control | 10 |
 | the Graces disc's own apploader — control | 7 |
+| *Tales of Xillia*, PlayStation 3 2011 — a fifth haystack, added later | **8** |
+
+The last row comes with a caveat that makes it a non-result rather than a
+negative, and it is the reason it is worth printing anyway. On that build a
+*control* needle — 872 arbitrary bytes of this same `main.dol` — scores **20**,
+so the decoder scores below the noise; and the whole-image ceiling between the
+2009 Wii executable and that one is **96 bytes of six distinct byte values**,
+`li r3,0 ; blr` repeated twelve times. Metrowerks PowerPC 32 against the
+PlayStation 3 SDK's PowerPC 64 share nothing else, so byte equality was not
+available and the eight means nothing.
+[ps3-talesofxillia-doc](https://github.com/vs-sr-dev/ps3-talesofxillia-doc).
 
 It is symmetric — 872 bytes of the 2009 decoder score 138 here and 8 against
 every control — and `common_run.py`, handed the whole of both executables and

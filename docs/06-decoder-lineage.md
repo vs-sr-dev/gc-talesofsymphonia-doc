@@ -229,6 +229,18 @@ Taking 872 bytes of the first and searching whole executables at any alignment:
 | *The Last Story*, Wii 2011 — negative control | 12 bytes |
 | *FF Crystal Chronicles: The Crystal Bearers*, Wii 2009 — negative control | 10 bytes |
 | the 2008 disc's own apploader — negative control | 7 bytes |
+| *Tales of Xillia*, PlayStation 3 2011 — added later | 8 bytes |
+
+The last row is a **non-result and is labelled as one**. On a PowerPC 64
+target built by the PlayStation 3 SDK's compiler, a control needle of 872
+arbitrary bytes from this same file scores **20** — above the decoder's eight —
+and the whole-image ceiling between the 2009 Wii executable and that one is
+**96 bytes with six distinct byte values**, a `li r3,0 ; blr` stub table any
+PowerPC linker emits. Byte equality was not available, so no figure from that
+pair is evidence about anything. It is recorded because a table of five
+haystacks with one silently missing would read as though the sixth had not
+been tried.
+[ps3-talesofxillia-doc](https://github.com/vs-sr-dev/ps3-talesofxillia-doc).
 
 The controls had to be built rather than borrowed. The corpus's usual one,
 `VENUS.ELF`, is MIPS, and against a PowerPC needle it would measure the
