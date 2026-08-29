@@ -112,6 +112,40 @@ neither control has. The codec did not cross. **The `.cab` compressor did**:
 `5b 80 80 8d` sits at offset `+8` of 545 of 545 payloads here and 1,506 of
 1,506 there. [→ 06](docs/06-decoder-lineage.md)
 
+**And a sixth, six years later, which is where this disc's decoder turns up
+again.** *Tales of Graces* (Wii, 10 December 2009) is the second build in the
+corpus on that machine and it **carries the codec** — one `4078` and one `4079`
+in two routines over 1,205,688 PowerPC instruction words, both of them the 1997
+shape entire. It is Metrowerks PowerPC like this disc, so the strong test has a
+denominator, and it returns the largest directed result this corpus has
+measured across a console generation:
+
+| 872 bytes of this disc's decoder, whole-file, any alignment | Run |
+|---|---:|
+| **Tales of Graces, Wii 2009** | **138 bytes** |
+| Ratatosk no Kishi, Wii 2008 | 10 |
+| *The Last Story*, Wii 2011 — control | 12 |
+| *Crystal Bearers*, Wii 2009 — control | 10 |
+| the Graces disc's own apploader — control | 7 |
+
+It is symmetric — 872 bytes of the 2009 decoder score 138 here and 8 against
+every control — and `common_run.py`, handed the whole of both executables and
+told nothing, ranks the decoder **first through eighth** of the 77 regions the
+two builds share, pairing **all four of this disc's copies** against both of
+that build's. Which of the four it descends from is therefore not decidable:
+they all score the same, which is what two byte-identical pairs predict.
+
+The 138 bytes are the **synthetic preload loop**, and unlike the 2003↔2008
+comparison there is no longer a longer runtime run standing over it: the best
+non-decoder region between this disc and 2009 is 107 bytes. Six years and two
+SDK generations moved the C runtime; the preload loop did not move.
+
+One correction to this repository's own instrument came out of it. Re-run with
+a probe that counts `rlwimi` as well as `rlwinm` for the high-nibble
+placement, this disc's structural fingerprint count gains **two** high-nibble
+inserts that had been missed since it was opened.
+[wii-talesofgraces-doc](https://github.com/vs-sr-dev/wii-talesofgraces-doc)
+
 Start at [docs/01-overview.md](docs/01-overview.md).
 
 ---
@@ -205,6 +239,7 @@ This is the fifth title in a series of pipelines that share one specification:
 | **Tales of Symphonia** | **GameCube** | **2003** | **yes — on PowerPC** | this repository |
 | **Tales of Symphonia** | **PlayStation 2** | **2004** | **yes — and edited** | this repository |
 | **Ratatosk no Kishi** | **Wii** | **2008** | **no** — the direct sequel, same ISA | [wii-talesofsymphoniadotnw-doc](https://github.com/vs-sr-dev/wii-talesofsymphoniadotnw-doc) |
+| **Tales of Graces** | **Wii** | **2009** | **yes — 138 bytes of this disc's decoder** | [wii-talesofgraces-doc](https://github.com/vs-sr-dev/wii-talesofgraces-doc) |
 
 The format itself is documented once, in
 [tales-blockcodec-doc](https://github.com/vs-sr-dev/tales-blockcodec-doc).
